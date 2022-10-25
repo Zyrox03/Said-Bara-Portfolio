@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+/* left  */
+
+main .left{
+    background-color: beige;
+    box-shadow: 0em 0em 1em 0.4em rgba(0,0,0,0.1);
+    width: 21%;
+    height: 100vh;
+    position:fixed;
+   
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+ 
+}
+
+.left .logo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+
+.logo .logoImage{
+    width: 95%;
+    height: 80%;
+    cursor: pointer;
+ 
+}
+
+.logo .logoImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.left .nav{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.left .nav ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+width:10em;
+
+    
+}
+
+.left li{
+   list-style: none;
+}
+
+.left li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s;
+    font-size: 1.2rem;
+}
+
+.left li a:hover{
+    color: rgb(255, 74, 255);
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+/* right  */
+
+main .right{
+padding-top: 4em;
+    width: 79% ;
+    height:  fit-content;
+    position: absolute;
+    right: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: rgba(228, 228, 228,0.3);
+  
+   
+}
+
+.right h1{
+    margin-left: 2em;
+    color: rgb(65, 63, 63);
+    margin-bottom: 1em;
+  
+}
+
+
+
+.right .imagesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+   justify-content: center;
+   padding: 3em 0em 0.2em;
+   margin-bottom: 10em;
+
+}
+
+.right .imagesContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.ver{
+    background-color: grey;
+    width: 290px;
+    height: 390px;
+    margin: 0.25em;
+}
+
+.ver img{
+    width: 100%;
+    height: 100%;
+}
+
+.right .imagesContainer .hor{
+    background-color: grey;
+    width: 590px;
+    height: 390px;
+    margin: 0.25em;
+}
+
+
+
+
+
+
+footer{
+    height: 4em;
+    width: 100%;
+background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    padding: 0em 1em;
+    box-shadow: 1em 0em 1em 0.4em rgba(0,0,0,0.1);
+    
+}
+
+footer .logoCopyright b{
+    font-size: 1.3em;
+
+    
+}
+
+.logoCopyright span{
+    font-size: 0.6em;
+}
+
+
+footer .socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    
+}
+
+footer .socials i{
+    font-size: 2em;
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+footer .socials i:hover{
+   transform: translateY(-2px);
+  color:rgb(238, 65, 238);
+
+}
+
+
+
+
+
+/* about Me  */
+
+
+.About-me{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+ 
+}
+
+.About-me .text{
+
+    width: 60%;
+    padding-bottom: 2em;
+    margin-right: 2em;
+    line-height: 25px;
+    flex-wrap: wrap;
+
+}
+
+.imageAboutMe{
+    width: 45%;
+    height: 40%;
+}
+
+.imageAboutMe img{
+    width: 80%;
+    height: 100%;
+}
+
+
+/* Contact */
+
+.Contact{
+    height: 100vh;
+    padding: 2em 5em ;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+form{
+
+ 
+    width: 45%;
+  margin: 1em;
+
+}
+
+form button{
+    padding: 1em 2em;
+    background-color: beige;
+    border-radius: 10px;
+  float: left;
+  border: 1px solid gray;
+  transition: all 0.25s;
+  cursor: pointer;
+    
+}
+
+form button:hover{
+    transform: translateX(2px);
+    background-color: rgb(218, 218, 204);
+    
+}
+.inputLine{
+    height:fit-content;
+    width: 50%;
+  
+    margin-bottom: 1em;
+}
+.inputLine label{
+    display: block;
+    margin-bottom: 1em;
+    width: 8em;
+}
+
+.inputLine input{
+  width: 20em;
+  height: 3em;
+  padding: 0.5em;
+
+    
+}
+
+.inputLine textarea{
+    max-width: 19em;
+    max-height: 10em;
+
+   
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.Contact .imageContact{
+    width: 50%;
+    height: 50vh;
+}
+
+.Contact .imageContact img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.burgerLogo{
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+    z-index: 11;
+    display: none;
+}
+
+
+
+.burgerLogo i{
+    font-size: 1.8em;
+    
+}
+
+
+
+.navBar-mb{
+ max-width: 10em;
+ background-color: rgba(228, 228, 228,1);
+ box-shadow: 0 0 2em 0.5em rgba(0, 0, 0,0.3);  
+ height: fit-content;
+ position: fixed;
+ top: 0;
+ right: 0;
+ z-index: 10;
+ padding: 4em 1em;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.navBar-mb .nav ul{
+    list-style: none;
+    margin-top: 2em;
+line-height: 2em;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+    
+}
+
+.navBar-mb .nav{
+  
+
+   text-align: center;
+   height: 30vh;
+  
+
+    
+}
+
+
+.navBar-mb ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.navBar-mb ul li a:hover{
+    color: rgb(71, 71, 71);
+}
+
+
+
+
+/* media Query  */
+
+@media only screen and (max-width: 1024px){
+main .left{
+    display: none;
+}
+
+main .right{
+    width: 100%;
+}
+
+.burgerLogo{
+    display: flex;
+}
+
+
+.About-me {
+    display: flex;
+    flex-direction: column;    
+ 
+}
+
+.Contact {
+    padding: 2em 2em ;
+   
+}
+
+.Contact .ver{
+    display: none;
+}
+
+
+footer .socials{
+    width: 35%;
+}
+}
