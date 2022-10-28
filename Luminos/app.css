@@ -53,6 +53,10 @@ nav a:last-of-type{
     position: relative;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpaperaccess.com/full/1752903.jpg) fixed;
+    background-size: cover;
 
 
 
@@ -60,8 +64,6 @@ nav a:last-of-type{
 
 .main img {
     width: 100%;
-    height: 100vh;
-    z-index: -10;
     object-fit: cover;
    
 }

@@ -56,7 +56,7 @@ nav {
     width: 70%;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    user-select:none;
+    user-select: none;
 }
 
 .navSide {
@@ -107,7 +107,7 @@ nav ul li :active {
 }
 
 .search {
-    
+
     position: relative;
     text-align: right;
     padding-right: 30px;
@@ -252,7 +252,7 @@ nav ul li :active {
     line-height: 30px;
 }
 
-.advices p{
+.advices p {
     color: rgb(53, 53, 53);
 }
 
@@ -567,7 +567,7 @@ footer {
     display: flex;
     color: white;
     padding: 40px 40px;
-   min-height: fit-content;
+    min-height: fit-content;
 
 
 }
@@ -656,7 +656,7 @@ footer a:hover {
     z-index: 1000;
     display: none;
     right: inherit;
-    
+
 
 }
 
@@ -665,12 +665,12 @@ footer a:hover {
     height: 20em;
     background-color: white;
     position: absolute;
-    left: 0; 
-    right: 0; 
+    left: 0;
+    right: 0;
     bottom: 0;
     top: 0;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
 
@@ -693,7 +693,7 @@ footer a:hover {
     padding: 1em;
 }
 
-.notes a{
+.notes a {
     color: black;
 }
 
@@ -747,18 +747,18 @@ footer a:hover {
 /* headerMore */
 
 .headerMore {
-   
+
     position: absolute;
     z-index: 999;
     max-height: 82vh;
-    
+
     font-size: 1.1em;
     font-family: "Proxima Nova", "Proxima Nova Fallback", sans-serif;
     width: 100%;
     background-color: beige;
     display: flex;
     flex-direction: column;
-   
+
 
 
 
@@ -791,7 +791,7 @@ footer a:hover {
 
 .top h3 {
     cursor: pointer;
-   
+
 }
 
 .conditions ul {
@@ -814,7 +814,7 @@ footer a:hover {
     justify-content: space-between;
     border-bottom: 2px solid gray;
     margin-bottom: 1.5em;
-   
+
 }
 
 .conditions .right .down {
@@ -905,7 +905,7 @@ footer a:hover {
 .plan .top p {
     font-size: 1.2em;
     margin-bottom: 0.7em;
-    
+
 
 }
 
@@ -949,7 +949,7 @@ footer a:hover {
     justify-content: space-around;
     padding: 1.3em 3em 3em;
     box-shadow: 0em 0.5em 1.5em 0.1em rgb(184, 184, 184);
-   
+
 
 }
 
@@ -1096,13 +1096,14 @@ footer a:hover {
     display: flex;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
+
 /*--------media query for less than 1240px screen-------*/
 
 @media only screen and (max-width:1240px) {
@@ -1130,30 +1131,31 @@ footer a:hover {
 
 
     .navSide {
-        
+
         position: absolute;
         width: 30em;
         height: 120%;
         background-color: beige;
-        
+
         z-index: 10;
         left: 0px;
         padding: 2em 1em;
         flex-direction: column;
-      
-      
+
+
 
 
 
 
     }
 
-    .navSide ul li:nth-of-type(1){
+    .navSide ul li:nth-of-type(1) {
         cursor: default;
         display: flex;
         justify-content: flex-start;
         padding: 0em 0.5em;
     }
+
     .navSide ul li {
         border-bottom: 2px solid gray;
         width: 80%;
@@ -1163,31 +1165,31 @@ footer a:hover {
         cursor: pointer;
         padding: 0em 2.1em;
         align-items: center;
-        transition:all 0.2s ;
+        transition: all 0.2s;
 
     }
 
-    .navSide ul li:hover{
-        color:  rgb(250, 20, 97);
+    .navSide ul li:hover {
+        color: rgb(250, 20, 97);
         letter-spacing: 0.1em;
     }
 
 
-    
-    .navSide ul li input{
-    padding: 0 1em;
-    width: 30em;
-    height: 3em;
-    margin:0;
-border: none;
-outline: none;
+
+    .navSide ul li input {
+        padding: 0 1em;
+        width: 30em;
+        height: 3em;
+        margin: 0;
+        border: none;
+        outline: none;
 
     }
 
-   
 
-    .navSide ul li button{
-        padding:  0.9em;
+
+    .navSide ul li button {
+        padding: 0.9em;
         background-color: rgb(0, 126, 126);
         border: 0.5px solid black;
         cursor: pointer;
@@ -1195,7 +1197,7 @@ outline: none;
 
     }
 
-    .navSide ul li button:hover{
+    .navSide ul li button:hover {
         background-color: rgb(177, 6, 63);
         padding: 0.9em;
         color: white;
@@ -1204,7 +1206,7 @@ outline: none;
     .navSide ul {
         overflow-y: scroll;
         padding-bottom: 20em;
-        
+
 
     }
 
@@ -1220,7 +1222,7 @@ outline: none;
 
     nav ul {
         display: none;
-        
+
     }
 
 
@@ -1370,12 +1372,13 @@ outline: none;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;;
+        justify-content: center;
+        ;
         height: fit-content;
         padding: 20px;
         width: 100%;
         text-align: center;
-        
+
     }
 
     footer .label {
@@ -1385,25 +1388,25 @@ outline: none;
     }
 
     footer .links {
-       
-       
+
+
         margin: 0;
         padding: 0;
 
         display: flex;
         justify-content: center;
         align-items: center;
-       
+
     }
 
 
     footer .links .top {
-       
+
         display: flex;
-       
-       justify-content: center;
-       align-items: center;
-width: 100%;
+
+        justify-content: center;
+        align-items: center;
+        width: 100%;
 
 
 
@@ -1411,19 +1414,19 @@ width: 100%;
 
     }
 
-    footer .links .down h4{
-        
-padding:  1em 0;
-margin: 0;
+    footer .links .down h4 {
+
+        padding: 1em 0;
+        margin: 0;
     }
 
     footer .links .down {
         width: 100%;
         display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-      
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
 
 
@@ -1437,7 +1440,7 @@ margin: 0;
 
 @media only screen and (max-width:950px) {
 
-    
+
 
     .more {
         width: 100%;
@@ -1496,15 +1499,13 @@ margin: 0;
 
 }
 
-@media only screen and (max-width:831px) {
-    
-}
+@media only screen and (max-width:831px) {}
 
 @media only screen and (max-width:730px) {
 
 
     .note {
-       
+
         width: 20em;
         height: 30em;
     }
@@ -1515,7 +1516,7 @@ margin: 0;
 
 @media only screen and (max-width:600px) {
 
-    
+
 
     header .logo img {
         display: none;
@@ -1541,10 +1542,44 @@ margin: 0;
 }
 
 @media only screen and (max-width:410px) {
-    
+
+
+
+    .main-blog-page {
+        
+        padding-right: 0em;
+
+    }
+
+    .container{
+        padding: 0.5em;
+        margin: 0;
+    }
+    .bonus{
+        padding-right: 1em;
+        margin-left: 0.5em;
+    }
+
+    .bonus li{
+        margin-bottom: 1em;
+    }
+    .navSide {
+        width: 100%;
+    }
+    .navSide  ul{
+        padding: 0;
+
+    }
+    .navSide  ul li{
+        padding: 0;
+    }
+
+    header{
+        padding-left: 2em;
+    }
 }
 
-.xMark{
+.xMark {
     display: none;
     position: absolute;
     top: 10px;
@@ -1552,26 +1587,26 @@ margin: 0;
     font-size: larger;
     cursor: pointer;
     overflow: hidden;
-  
-   
+
+
 }
 
 
-.navSideContainer{
-    
+.navSideContainer {
+
     background-color: rgba(0, 0, 0, 0.30);
     width: 100%;
     height: 100vh;
     position: fixed;
     z-index: 10;
-  
 
-    
+
+
 }
 
 
 /* footer  */
-footer .links{
+footer .links {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
