@@ -41,78 +41,207 @@
 
 
     <section class="myProduct">
-        <div class="imagesSide">
-            <div class="mainImage">
-                <img src="https://cdn.shopify.com/s/files/1/1861/9475/products/3D-DJ-Headphone-Design-Night-Lamp-Music-Monitor-Headset-Earphone-Shape-Night-Light-7-Colors-Change_800x.jpg?v=1571711937"
-                    alt="">
-            </div>
-            <div class="lilImages">
-                <div class="oneImage">
+        <div class="text-image">
+            <div class="imagesSide">
+                <div class="mainImage">
                     <img src="https://cdn.shopify.com/s/files/1/1861/9475/products/3D-DJ-Headphone-Design-Night-Lamp-Music-Monitor-Headset-Earphone-Shape-Night-Light-7-Colors-Change_800x.jpg?v=1571711937"
                         alt="">
                 </div>
-                <div class="oneImage">
-                    <img src="https://cdn.shopify.com/s/files/1/1861/9475/products/3D-DJ-Headphone-Design-Night-Lamp-Music-Monitor-Headset-Earphone-Shape-Night-Light-7-Colors-Change_df23d19e-49d8-4c07-96fc-32b90ff4edbd_800x.jpg?v=1571711937" alt="">
-                </div>
-                <div class="oneImage">
-                    <img src="https://cdn.shopify.com/s/files/1/1861/9475/products/3D-DJ-Headphone-Design-Night-Lamp-Music-Monitor-Headset-Earphone-Shape-Night-Light-7-Colors-Change_6665888d-7fc2-433a-bc51-10fe0ee3c8f7_600x.jpg?v=1571711937 "
-                        alt="">
-                </div>
-                <div class="oneImage">
-                    <img src="https://cdn.shopify.com/s/files/1/1861/9475/products/HTB1WtGRRFXXXXceXFXXq6xXFXXXf_600x.jpg?v=1571711937"
-                        alt="">
+                <div class="lilImages">
+                    <div class="oneImage">
+                        <img src="https://cdn.shopify.com/s/files/1/1861/9475/products/3D-DJ-Headphone-Design-Night-Lamp-Music-Monitor-Headset-Earphone-Shape-Night-Light-7-Colors-Change_800x.jpg?v=1571711937"
+                            alt="">
+                    </div>
+                    <div class="oneImage">
+                        <img src="https://cdn.shopify.com/s/files/1/1861/9475/products/3D-DJ-Headphone-Design-Night-Lamp-Music-Monitor-Headset-Earphone-Shape-Night-Light-7-Colors-Change_df23d19e-49d8-4c07-96fc-32b90ff4edbd_800x.jpg?v=1571711937"
+                            alt="">
+                    </div>
+                    <div class="oneImage">
+                        <img src="https://cdn.shopify.com/s/files/1/1861/9475/products/3D-DJ-Headphone-Design-Night-Lamp-Music-Monitor-Headset-Earphone-Shape-Night-Light-7-Colors-Change_6665888d-7fc2-433a-bc51-10fe0ee3c8f7_600x.jpg?v=1571711937 "
+                            alt="">
+                    </div>
+                    <div class="oneImage">
+                        <img src="https://cdn.shopify.com/s/files/1/1861/9475/products/HTB1WtGRRFXXXXceXFXXq6xXFXXXf_600x.jpg?v=1571711937"
+                            alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="infoSide">
-            <h2>LED Headset Music Table Lamp </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam repudiandae odio ex illo, vel neque
-                quibusdam fuga adipisci soluta eum voluptas in quasi dolorem explicabo modi natus veritatis quod sunt!
-                <br><br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure vero maxime velit voluptas
-                voluptatem sunt, ad deleniti fugit natus ducimus? Vitae recusandae sapiente iusto provident, error animi
-                est officiis!
-            </p>
-            
-              <form class="AddForm" action="noWhere">
-                <div class="">
-                    <h4>Price : <span>2000</span> DA</h4>
-                <label for="qty">Quantity :</label>
-                <input type="number" value="1" min="1" id="qty">
-            </div>
-           
-            <a href="">
-                <button>Add to Cart</button>
-            </a>
-              </form>
+            <div class="infoSide">
+                <h2>LED Headset Music Table Lamp </h2>
 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam repudiandae odio ex illo, vel neque
+                    quibusdam fuga adipisci soluta eum voluptas in quasi dolorem explicabo modi natus veritatis quod
+                    sunt!
+
+                </p>
+                <h4>Price : <span class="productPrice">2500</span> DA</h4>
+
+                <form class="AddForm" onsubmit="sendEmail() ; reset(); return false">
+                    <div class="SpaceBetween">
+
+                        <label for="Nom">Nom :</label>
+                        <input type="text" placeholder="Nom Complet" id="Nom">
+                    </div>
+
+                    <div class="SpaceBetween">
+
+                        <label for="Num">Tel :</label>
+                        <input type="tel" placeholder="Numero de tel" id="Num">
+                    </div>
+
+                    <div class="SpaceBetween">
+
+                        <label for="Wilaya">Wilaya :</label>
+                        <select name="Wilaya" id="Wilaya">
+                            <option value="none"> --Wilaya--</option>
+
+
+                            <option value="Adrar"> Adrar</option>
+                            <option value="Chlef"> Chlef</option>
+                            <option value="Laghouat"> Laghouat</option>
+                            <option value="Oum-El-Bouaghi"> Oum-El-Bouaghi</option>
+                            <option value="Batna"> Batna</option>
+                            <option value="Béjaïa"> Béjaïa</option>
+                            <option value="Biskra"> Biskra</option>
+                            <option value="Béchar"> Béchar</option>
+                            <option value="Blida"> Blida</option>
+                            <option value="Bouira"> Bouira</option>
+                            <option value="Tamanrasset">Tamanrasset</option>
+                            <option value="Tébessa"> Tébessa</option>
+                            <option value="Tlemcen"> Tlemcen</option>
+                            <option value="Tiaret"> Tiaret</option>
+                            <option value="Tizi-Ouzou"> Tizi-Ouzou</option>
+                            <option value="Alger"> Alger</option>
+                            <option value="Djelfa"> Djelfa</option>
+                            <option value="Jijel"> Jijel</option>
+                            <option value="Sétif"> Sétif</option>
+                            <option value="Saïda"> Saïda</option>
+                            <option value="Skikda"> Skikda</option>
+                            <option value="Sidi Bel Abbès"> Sidi Bel Abbès</option>
+                            <option value="Annaba"> Annaba</option>
+                            <option value="Guelma"> Guelma</option>
+                            <option value="Constantine"> Constantine</option>
+                            <option value="Médéa"> Médéa</option>
+                            <option value="Mostaganem"> Mostaganem</option>
+                            <option value="M’sila"> M’sila</option>
+                            <option value="Mascara"> Mascara</option>
+                            <option value="Ouargla"> Ouargla</option>
+
+                            <option value="Oran"> Oran</option>
+                            <option value="El Bayadh"> El Bayadh</option>
+                            <option value="Illizi"> Illizi</option>
+                            <option value="Bordj Bou Arreridj"> Bordj Bou Arreridj</option>
+                            <option value="Boumerdès"> Boumerdès</option>
+                            <option value="El-Tarf"> El-Tarf</option>
+                            <option value="Tindouf"> Tindouf</option>
+                            <option value="Tissemsilt"> Tissemsilt</option>
+                            <option value="El-Oued"> El-Oued</option>
+                            <option value="Khenchela"> Khenchela</option>
+                            <option value="Souk-Ahras"> Souk-Ahras</option>
+                            <option value="Tipaza"> Tipaza</option>
+                            <option value="Mila"> Mila</option>
+                            <option value="Aïn-Defla"> Aïn-Defla</option>
+                            <option value="Naâma"> Naâma</option>
+                            <option value="Aïn-Témouchent"> Aïn-Témouchent</option>
+                            <option value="Ghardaïa"> Ghardaïa</option>
+                            <option value="Relizane"> Relizane</option>
+
+                            <!-- <option value="El M'Ghair"> El M'Ghair</option>
+                            <option value="El Meniaa"> El Meniaa</option>
+                            <option value="Ouled Djellal"> Ouled Djellal</option>
+                            <option value="Bordj Badji Mokhtar"> Bordj Badji Mokhtar</option>
+                            <option value="Béni Abbès"> Béni Abbès</option>
+                            <option value="Timimoun"> Timimoun</option>
+                            <option value="Touggourt"> Touggourt</option>
+                            <option value="Djanet"> Djanet</option>
+                            <option value="In Salah"> In Salah</option>
+                            <option value="In Guezzam"> In Guezzam</option> -->
+
+                        </select>
+                    </div>
+
+                    <div class="SpaceBetween">
+
+                        <label for="Commune">Commune :</label>
+                        <select name="Commune" id="Commune">
+                            <option value="none"> --Commune--</option>
+
+                        </select>
+                    </div>
+
+                    <div class="SpaceBetween">
+                        <label for="qty">Quantity :</label>
+                        <input type="number" value="1" min="1" id="qty">
+                    </div>
+
+                    <div class="SpaceBetween">
+                        <label for="remarque">Remarque :</label>
+                        <input type="text" id="remarque" placeholder="Remarque">
+                    </div>
+
+
+                    <div class="SpaceBetween prices">
+                        <b class="livraison">Livraison <span></span> DA</b>
+                    </div>
+
+                    <div class="SpaceBetween prices">
+                        <h3 class="total">Total <span></span> DA</h3>
+                    </div>
+
+                    <div class="SpaceBetween">
+                        <a href="">
+                            <button type="submit">Add to Cart</button>
+
+                        </a>
+                    </div>
+                </form>
+
+
+
+            </div>
         </div>
     </section>
 
-    <section class="most-liked">
-        <div class="title">
-            <h2>Most Viewed</h2>
+
+    <section class="Join-Us">
+
+        <div class="col-3 facebook">
+            <div class="">
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <h2>Join Our facebook</h2>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class=""></div>
         </div>
 
-        <div class="Allproducts">
+        <div class="col-3 telephone">
 
-            <div class="design">
-                <img src="https://ae01.alicdn.com/kf/HTB1HrVhmf9TBuNjy1zbq6xpepXa4.jpg" alt="">
+            <div class="">
+                <i class="fa-solid fa-phone"></i>
             </div>
-
-            <div class="design">
-                <img src="https://cf.shopee.com.my/file/be00e4c9f980d9d787dc0fd4347e4455_tn" alt="">
-
+            <h2>Contact us</h2>
+            <div class="text">
+                <p>+213 123456789</p>
             </div>
+            <div class=""></div>
 
-            <div class="design">
-                <img src="https://www.somamba.com/image/cache/catalog/acat/Plexi_glass/Alla/PLE060___Plexiglass_led_%CE%93%CF%85%CE%AC%CE%BB%CE%B1_%CF%88%CE%B1%CF%81%CE%AC%CE%BA%CE%B9%CE%B1-500x500.jpg"
-                    alt="">
+        </div>
 
+        <div class="col-3 email">
+
+            <div class="">
+                <i class="fa-solid fa-envelope"></i>
             </div>
-
+            <h2>Our E-mail</h2>
+            <div class="text">
+                <p>Luminos22@Test.com</p>
+            </div>
+            <div class=""></div>
         </div>
     </section>
+
     <!-- footer -->
 
     <footer>
@@ -137,6 +266,8 @@
 
         </div>
     </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </body>
 

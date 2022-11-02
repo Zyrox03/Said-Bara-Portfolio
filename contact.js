@@ -14,7 +14,7 @@ humLogo.addEventListener('click',function(){
 
     function sendEmail(){
         Email.send({
-             // i should hide these infos 
+          
              SecureToken : "71a6c017-5429-4e95-913c-268f78411819",
             To : 'justzyrox03@gmail.com',
             From : 'anisanissou2003@gmail.com',
