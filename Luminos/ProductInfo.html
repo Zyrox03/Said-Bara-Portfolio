@@ -67,26 +67,41 @@
                     </div>
                 </div>
             </div>
+
             <div class="infoSide">
-                <h2>Trumpet LED Lamp </h2>
+              
+                
+                <h2 name="Product Name"> Trumpet LED Lamp </h2>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam repudiandae odio ex illo, vel neque
                     quibusdam fuga adipisci soluta eum voluptas in quasi dolorem explicabo modi natus veritatis quod
                     sunt!
-
                 </p>
-                <h4>Price : <span class="productPrice">2000</span> DA</h4>
+                
+                <h4>Price : <span class="productPrice" name="prix">2000</span> DA</h4>
+                
 
-                <form class="AddForm" onsubmit="sendEmail() ; reset(); return false">
+                <!-- onsubmit="sendEmail() ; reset(); return false" -->
+
+                <form class="AddForm" action="https://formspree.io/f/maykllqj" method="POST">
+
+                    <div class="SpaceBetween">
+
+                        <input type="hidden" name="tag" id="Tag" value="Trumpet">
+                        
+                    </div>
+
+
                     <div class="SpaceBetween">
 
                         <label for="Nom">Nom :</label>
-                        <input type="text" placeholder="Nom Complet" id="Nom">
+                        <input type="text" name="nom" placeholder="Nom Complet" id="Nom">
                     </div>
 
                     <div class="SpaceBetween">
 
                         <label for="Num">Tel :</label>
-                        <input type="tel" placeholder="Numero de tel" id="Num">
+                        <input type="tel" name="telephone" placeholder="Numero de tel" id="Num">
                     </div>
 
                     <div class="SpaceBetween">
@@ -94,7 +109,6 @@
                         <label for="Wilaya">Wilaya :</label>
                         <select name="Wilaya" id="Wilaya">
                             <option value="none"> --Wilaya--</option>
-
 
                             <option value="Adrar"> Adrar</option>
                             <option value="Chlef"> Chlef</option>
@@ -171,26 +185,26 @@
 
                     <div class="SpaceBetween">
                         <label for="qty">Quantity :</label>
-                        <input type="number" value="1" min="1" id="qty">
+                        <input type="number" name="Quantité" value="1" min="1" id="qty">
                     </div>
 
                     <div class="SpaceBetween">
                         <label for="remarque">Remarque :</label>
-                        <input type="text" id="remarque" placeholder="Remarque">
+                        <input type="text" name="remarque" id="remarque" placeholder="Remarque">
                     </div>
 
 
-                    <div class="SpaceBetween prices">
-                        <b class="livraison">Livraison <span></span> DA</b>
+                    <div class="SpaceBetween prices" >
+                        <b class="livraison">Livraison <span></span>DA</b>
                     </div>
 
                     <div class="SpaceBetween prices">
-                        <h3 class="total">Total <span></span> DA</h3>
+                        <h3 class="total">Total <span></span>DA</h3>
                     </div>
 
                     <div class="SpaceBetween">
                         <a href="">
-                            <button type="submit">Add to Cart</button>
+                            <button type="submit" value="Send">Add to Cart</button>
 
                         </a>
                     </div>
@@ -272,7 +286,7 @@
         </div>
     </footer>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 </body>
 
 </html>

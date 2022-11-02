@@ -899,25 +899,25 @@ total.innerText =  (parseFloat(productPrice) * document.querySelector('#qty').va
 
 // send Email 
 
-function sendEmail(){
-    Email.send({
-         SecureToken : "71a6c017-5429-4e95-913c-268f78411819",
-        To : 'justzyrox03@gmail.com',
-        From : 'anisanissou2003@gmail.com',
-        Subject : "Nouvelle Commande",
+// function sendEmail(){
+//     Email.send({
+//          SecureToken : "71a6c017-5429-4e95-913c-268f78411819",
+//         To : 'justzyrox03@gmail.com',
+//         From : 'anisanissou2003@gmail.com',
+//         Subject : "Nouvelle Commande",
 
-        Body : "product Name : " +  document.querySelector('.infoSide h2').innerText
-        + "<br> Nom : " + document.querySelector('#Nom').value
-        + "<br> Tel : " + document.querySelector('#Num').value
-        + "<br> Wilaya : " + document.querySelector('#Wilaya').value
-        + "<br> Commune : " + document.querySelector('#Commune').value
-        + "<br> Quantité : " + document.querySelector('#qty').value
-        + "<br> Remarque : <br><br>" + document.querySelector('#remarque').value + "<br>" 
-        + "<br> Livraison : " + document.querySelector('.livraison span').innerText
-        + "<br> Total : " + document.querySelector('.total span').innerText
+//         Body : "product Name : " +  document.querySelector('.infoSide h2').innerText
+//         + "<br> Nom : " + document.querySelector('#Nom').value
+//         + "<br> Tel : " + document.querySelector('#Num').value
+//         + "<br> Wilaya : " + document.querySelector('#Wilaya').value
+//         + "<br> Commune : " + document.querySelector('#Commune').value
+//         + "<br> Quantité : " + document.querySelector('#qty').value
+//         + "<br> Remarque : <br><br>" + document.querySelector('#remarque').value + "<br>" 
+//         + "<br> Livraison : " + document.querySelector('.livraison span').innerText
+//         + "<br> Total : " + document.querySelector('.total span').innerText
         
         
-    }).then(
-      message => alert("Merci pour votre confiance, notre équipe va vous appeler pour confirmer votre commande")
-    );  
-}
+//     }).then(
+//       message => alert("Merci pour votre confiance, notre équipe va vous appeler pour confirmer votre commande")
+//     );  
+// }
