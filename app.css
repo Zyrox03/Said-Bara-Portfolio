@@ -606,7 +606,7 @@ footer .invitation p a {
 
 .contactUsPage {
 
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     background: #a7f2f5;
     display: flex;
@@ -623,7 +623,6 @@ footer .invitation p a {
     border-radius: 6px;
     padding: 20px 60px 30px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 3em;
 
 
 }
@@ -687,7 +686,12 @@ footer .invitation p a {
     font-size: 23px;
     font-weight: 600;
     color: rgb(219, 66, 219);
+    margin-bottom: 0.5em;
+
 }
+
+
+
 
 .right-side .input-box {
     height: 50px;

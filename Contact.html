@@ -86,15 +86,15 @@
           <div class="right-side">
             <div class="topic-text">Send us a message</div>
             <p>Feel free to contact me if you need to chat about your project or if you're not sure of what it's the appropriate solution for your business.</p>
-          <form onsubmit="sendEmail() ; reset(); return false">
+          <form action="https://formspree.io/f/mqkjgorv" POST="POST">
             <div class="input-box">
-              <input id="name" type="text" placeholder="Enter your name" required>
+              <input id="name" name="Name" type="text" placeholder="Enter your name" required>
             </div>
             <div class="input-box">
-              <input id="email" type="email" placeholder="Enter your email" required>
+              <input id="email" name="Email" type="email" placeholder="Enter your email" required>
             </div>
             <div class="input-box message-box">
-              <textarea id="theText" name="message" id="message" cols="30" rows="10" placeholder="Your text here"></textarea>
+              <textarea id="theText" name="Message" id="message" cols="30" rows="10" placeholder="Your text here"></textarea>
             </div>
             <div class="button">
               <input type="submit" value="Send Now" >
