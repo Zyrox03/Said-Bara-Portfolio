@@ -1,0 +1,715 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+
+
+}
+
+body {
+
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: gainsboro;
+
+    background: url(Images/photo-1634973357973-f2ed2657db3c.jpeg) fixed;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+    
+    
+}
+
+
+
+@media screen and (max-width: 722px) {
+   
+  body{
+    background: none;
+
+  }
+
+  .burgerMenu i:nth-of-type(1){
+    display: none;
+
+}
+
+
+
+  }
+
+
+/* nav  */
+
+nav {
+    height: 4em;
+    padding: 0.5em 1em;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0em 0.25em 1em 0.1em rgb(0, 0, 0, 0.1);
+    position: fixed;
+    background-color: rgb(253, 253, 253);
+
+    z-index: 5;
+
+}
+
+nav .logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 4em;
+
+    height: 100%;
+    cursor: pointer;
+
+}
+
+nav .burgerMenu {
+    width: 50%;
+
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+
+
+}
+
+nav .burgerMenu i {
+    cursor: pointer;
+    padding: 0.25em;
+    font-size: 25px;
+
+}
+
+/* rightSlide */
+
+.rightSlide {
+
+
+
+    z-index: 6;
+    top: 4em;
+    height: 100%;
+    width: 85%;
+    max-width: 20em;
+    background-color: rgb(253, 253, 253);
+
+
+    position: fixed;
+    right: 0%;
+    box-shadow: 0em 1.5em 1em 0.1em rgb(0, 0, 0, 0.2);
+
+
+    transition: all 0.5s;
+    transform: translateX(100%);
+}
+
+.rightSlide .rightContent {
+    width: 100%;
+    height: 80%;
+    padding: 1em;
+
+}
+
+
+.rightLogo {
+    width: 100%;
+    max-width: 100;
+    background-color:rgb(241, 241, 241);
+    height: 20%;
+    max-height: 6em;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+
+    border-bottom: 1px solid black;
+}
+
+.rightLogo img {
+    width: 50%;
+    max-width: 7em;
+
+    height: 100%;
+}
+
+
+
+.rightContent ul {
+    list-style: square;
+    padding-left: 2em;
+}
+
+.rightContent ul li {
+    width: max-content;
+    margin: 1em 0;
+
+}
+
+.principale {
+    margin-top: 1em;
+    padding: 1em 0em;
+    margin-bottom: 1em;
+}
+
+.aboutUs {
+    padding: 1em 0em;
+    margin-bottom: 1em;
+}
+
+.rightSlide h2 {
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+}
+
+.rightSlide a {
+    text-decoration: none;
+    color: black;
+    padding: 0.25em;
+    margin: 0.75em 0;
+
+
+
+}
+
+
+/* main */
+
+main {
+    position: relative;
+    top: 4em;
+    height: 35vh;
+    width: 100%;
+    background: url(https://www.aivanet.com/wp-content/uploads/2019/12/technology-gadgets-card-game-100-cool-tech-in-2019-best-products-you-need.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    background-color: rgb(253, 253, 253);
+
+}
+
+main .mainText {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImage {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.mainImage img {
+
+    width: 100%;
+    max-width: 5em;
+
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.mainCaroussel img{
+max-width: none;
+}
+
+main .mainText h2 {
+    margin-top: 1em;
+    font-size: 30px;
+}
+
+/* Products */
+
+.Products {
+    position: relative;
+    top: 4em;
+    padding: 4em 1em;
+    width: 100%;
+
+    /* width: 362px; */
+
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 15em;
+    height: 22em;
+    margin: 2em 0em;
+    box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.2);
+}
+
+.cardImage {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+
+}
+
+.cardInfo {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.cardImage img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* socials */
+
+.socials {
+    position: relative;
+    top: 4em;
+    width: 100%;
+
+    /* width: 362px; */
+    height: fit-content;
+    padding: 3em 0em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialCard {
+
+    width: 90%;
+    max-width: 30em;
+    height: 10em;
+    margin: 1em 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    line-height: 30px;
+
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.title h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+/* footer  */
+
+footer {
+    position: relative;
+    top: 4em;
+    height: 4em;
+    width: 100%;
+
+    /* width: 362px; */
+
+    background-color: rgb(243, 243, 243);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0em -0.5em 1em 0.1em rgb(0, 0, 0, 0.2);
+
+}
+
+
+.empty {
+    position: relative;
+    top: 4em;
+    height: 4em;
+    width: 100%;
+}
+
+
+
+
+/* product Info */
+
+.Product_Info {
+    width: 100%;
+    /* margin-top: 2em; */
+
+
+    /* width: 362px; */
+    height: 140vh;
+    position: relative;
+    top: 4em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.5);
+
+    padding-bottom: 2em;
+
+
+}
+
+
+.Caroussel_zone {
+    width: 100%;
+    max-width: 30em;
+    height: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+
+
+
+}
+
+.Caroussel_zone .mainImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Caroussel_zone .lilImages img {
+    width: 100%;
+    height: 100%;
+    min-height: 4em;
+    object-fit: cover;
+}
+
+.Caroussel_zone .mainImage {
+    width: 90%;
+    height: 60%;
+
+    transition: all 0.5s;
+
+}
+
+.Caroussel_zone .lilImages {
+    width: 90%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2em;
+
+}
+
+
+.lilImages .oneImage {
+    width: 24.5%;
+    height: 75.5%;
+    cursor: pointer;
+
+}
+
+.leftArrow {
+
+    left: 0.1em;
+    position: absolute;
+    display: flex;
+
+
+}
+
+.rightArrow {
+
+    right: 0.1em;
+    display: flex;
+    position: absolute;
+}
+
+.arrow {
+
+    width: 2.1em;
+    height: 2em;
+    bottom: 17%;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid black;
+
+    z-index: 2;
+}
+
+.arrow:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.current {
+    opacity: 0.7;
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* product_description */
+
+.product_description {
+    width: 90%;
+    height: 20%;
+    margin-bottom: 2em;
+    position: relative;
+
+    background-color: rgb(253, 253, 253);
+
+    padding: 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.product_description h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+
+}
+/* ProductForm */
+
+
+.ProductForm {
+    width: 95%;
+    height: 40%;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0  0em 1em 0.2em rgb(0, 0, 0, 0.5);
+}
+
+.ProductForm {
+    height: 45%;
+    max-width: 30em;
+
+
+}
+
+.AddForm {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1em;
+}
+
+.AddForm .SpaceBetween {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.AddForm input {
+    width: 70%;
+    padding-left: 1em;
+    height: 2em;
+}
+
+.AddForm select {
+    width: 70%;
+    height: 2em;
+
+    padding-left: 1em;
+
+}
+
+.AddForm .SpaceBetween:last-of-type {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddForm .SpaceBetween:last-of-type button {
+
+    padding: 1em;
+    width: 40%;
+    cursor: pointer;
+
+    background-color: red;
+    transition: all 0.25s;
+    color: white;
+    border: none;
+
+    border-radius: 10px;
+}
+
+.AddForm .SpaceBetween:last-of-type button:hover {
+    background-color: red;
+    opacity: 0.85;
+
+}
+
+/* buyNow */
+
+.buyNow {
+    position: fixed;
+    bottom: 0em;
+    z-index: 5  ;
+
+
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 100%;
+
+    /* width: 362px; */
+    box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.3);
+}
+
+.buyNow a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.buyNow button {
+    width: 60%;
+    max-width: 20em;
+    height: 70%;
+    cursor: pointer;
+    transition: all 0.25s;
+
+    background-color: red;
+
+    color: white;
+    border: none;
+
+    border-radius: 10px;
+}
+
+.buyNow button:hover {
+    background-color: red;
+    opacity: 0.85;
+}
+
+/* for mobile size */
+
+.forMobileSize{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+
+    background-color: rgb(253, 253, 253);
+
+    transition: all 0.5s;
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.burgerMenu i:nth-of-type(1){
+    transition: all 0.5s;
+}
+
+
+@media screen and (max-height: 625px) {
+   
+   
+    .arrow{
+        bottom:13%;
+    }
+  }
+
+@media screen and (min-height: 625px) {
+  
+ 
+    .arrow{
+        bottom: 18%;
+    }
+  }
+
+
+  
+@media screen and (min-height:1000px) {
+  
+    .arrow{
+        bottom: 19%;
+    }
+  }
