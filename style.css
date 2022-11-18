@@ -71,7 +71,7 @@ nav .logo a{
 }
 
 nav .logo a:active{
-    color: green;
+    color: rgb(0, 200, 0);
 }
 
  .NavBtn{
@@ -168,7 +168,7 @@ nav .navBar a h2:hover{
 }
 
 .main_Image .op small span{
-    color: green;
+    color: rgb(0, 200, 0);
 }
 
 /* About Me */
@@ -203,7 +203,7 @@ nav .navBar a h2:hover{
 
 }
 .about_Me .myText a{
-    color: green;
+    color: rgb(0, 200, 0);
 }
 
 .contact .myText{
@@ -220,7 +220,7 @@ nav .navBar a h2:hover{
 }
 
 .contact .myText b{
-    color: green;
+    color: rgb(0, 200, 0);
     text-decoration: underline;
 }
 
@@ -229,7 +229,7 @@ nav .navBar a h2:hover{
     height: 15em;
     max-width: 50vw;
 
-    background-color: green;
+    background-color: rgb(0, 200, 0);
     align-self: center;
     
 
@@ -630,7 +630,7 @@ border-radius: 10px;
 
 .info:nth-of-type(4) button:hover{
     transform: translateX(0.5em);
-    background-color: green;
+    background-color: rgb(0, 200, 0);
 }
 
 
