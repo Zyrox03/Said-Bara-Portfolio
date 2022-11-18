@@ -1,6 +1,66 @@
+// nav toggle
+
+let nav = document.querySelector('nav');
+let navBtn = document.querySelector('.NavBtn');
+
+let isClicked = false;
+
+navBtn.addEventListener('mouseover', function () {
+
+    if (isClicked === false) {
+
+        nav.style.transform = "translateX(0%)"
+
+        isClicked = true;
+    } else {
+
+        nav.style.transform = "translateX(-100%)"
+
+        isClicked = false;
+    }
+
+
+
+    // when hover outside nav
+
+
+    window.addEventListener('mouseover', function (e) {
+
+
+        if (nav.contains(e.target)) {
+            return
+
+        } else {
+
+            if (e.target === navBtn) {
+
+                return
+
+
+
+            } else {
+
+
+                nav.style.transform = 'translateX(-100%)';
+
+
+
+                isClicked = false;
+            }
+
+
+        }
+    }, { once: false });
+
+
+
+
+}, { once: false })
+
+
+
 
 // css animations
-
 
 
 const observer = new IntersectionObserver((entries) => {
@@ -11,7 +71,7 @@ const observer = new IntersectionObserver((entries) => {
 
         }
         else {
-            entry.target.classList.remove('show');
+            // entry.target.classList.remove('show');
 
 
         }
@@ -21,7 +81,8 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden')
 const hiddenElements1 = document.querySelectorAll('.hidden1')
 
-const hiddenSquare = document.querySelectorAll('.hidden')
+
+
 
 
 hiddenElements.forEach((el) => observer.observe(el));
@@ -29,81 +90,85 @@ hiddenElements1.forEach((el) => observer.observe(el));
 
 
 
-// quote mouse Click effect 
+// project hover
 
-let quoteWord = document.querySelector('.quote q span')
-let count = 0
+let projects = document.querySelectorAll('.project');
 
-function addOne() {
-    count++
 
-    if (count <= 6) {
 
-        return count
-    } else {
+projects.forEach((project) => {
 
-        return 0;
-    }
+    project.addEventListener('mouseover', function () {
+        let pInfo = project.lastElementChild;
 
+        pInfo.style.transform = 'translateY(0%)'
+
+
+
+        project.addEventListener('mouseout', function () {
+            let pInfo = project.lastElementChild;
+
+            pInfo.style.transform = 'translateY(100%)'
+
+
+
+        })
+
+
+    })
+})
+
+
+// copy socials 
+
+let env = document.querySelector('.env');
+let copied = document.querySelector('.copied');
+
+let phone = document.querySelector('.phone');
+let copied1 = document.querySelector('.copied1');
+
+function copyEmail() {
+
+
+    navigator.clipboard.writeText
+
+        ("justzyrox03@gmail.com");
 
 }
-quoteWord.addEventListener('click', function () {
-
-    
-    addOne()
-
-    if (count === 0) {
-        quoteWord.innerText = 'Click Me'
-
-    } else if (count === 1) {
-        quoteWord.innerText = 'Happiness'
+function copyPhone() {
 
 
-    } else if (count === 2) {
-        quoteWord.innerText = 'Peace'
+    navigator.clipboard.writeText
+
+        ("+2137 81 44 10 49");
+
+}
+
+env.addEventListener('click', function () {
+
+    copied.style.transform = 'scale(1)';
+
+    setTimeout(function () {
+        copied.style.transform = 'scale(0)';
+
+    }, 1000)
 
 
-    } else if (count === 3) {
-        quoteWord.innerText = 'Success'
-
-    } else if (count === 4) {
-        quoteWord.innerText = 'Love'
-
-    } else if (count === 5) {
-        quoteWord.innerText = 'Respect'
-
-    } else if (count === 6) {
-        quoteWord.innerText = 'Everything'
-
-    }
-
+    copyEmail()
 })
 
 
 
+phone.addEventListener('click', function () {
 
-// Main image rotate at hover
+    copied1.style.transform = 'scale(1)';
 
-let rotateBtn = document.querySelector('.MainPage button')
-let rotateImg = document.querySelector('.MainPage img')
+    setTimeout(function () {
+        copied1.style.transform = 'scale(0)';
 
-rotateBtn.addEventListener('mouseover',function(){
-    rotateImg.style.transform = "rotate(6deg)"
+    }, 1000)
 
-    rotateBtn.addEventListener('mouseout',function(){
-        rotateImg.style.transform = "rotate(0deg)"
-    })
+
+    copyPhone()
 })
 
-
-// toggleMenu 
-
-
-let humLogo = document.querySelector('.humLogo i');
-let navSide = document.querySelector('.navSide');
-
-humLogo.addEventListener('click',function(){
-    navSide.classList.toggle('flex');
-    })
-
-    
