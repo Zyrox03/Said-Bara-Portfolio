@@ -1,2 +1,4 @@
 # Said-Bara-Portfolio
-My first ever portfolio created :)
+My second portfolio ever created :)
+
+check master branch for more lines of code
