@@ -138,7 +138,7 @@ nav .navBar a h2:hover{
 
 .fullContent .main_Image{
     background-color: rgb(189, 189, 189);
-    background: url(Images/images\ \(13\).jpeg) no-repeat fixed;
+    background: url(/Images/images\ \(13\).jpeg) no-repeat fixed;
     background-size: cover;
     background-position: center ;
     width: 100%;
@@ -315,23 +315,31 @@ nav .navBar a h2:hover{
 
 .skillImages{
     width: 100%;
-    height: 5em;
+    height: fit-content;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+  
 }
 
 .skillImages .square{
 
-    width: 12.5%;
-    height: 100%;
+    min-width: 5em;
+    max-width: 5em;
+    height: 5em;
+    margin: 0.25em;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.skillImages .square:nth-of-type(4) img,.skillImages .square:nth-of-type(2) img{
+    object-fit: cover;
+
+}
 
 
 .skillImages .square img{
@@ -857,6 +865,13 @@ footer hr{
     
         padding-left: 5%;
         padding-top: 50%;
+    }
+
+    .skillImages .square{
+
+        width: 25%;
+        margin: 0.25em;
+    
     }
 
 
