@@ -138,7 +138,7 @@ nav .navBar a h2:hover{
 
 .fullContent .main_Image{
     background-color: rgb(189, 189, 189);
-    background: url(/Images/images\ \(13\).jpeg) no-repeat fixed;
+    background: url(images/Main.jpeg) no-repeat fixed;
     background-size: cover;
     background-position: center ;
     width: 100%;
