@@ -138,7 +138,7 @@ nav .navBar a h2:hover{
 
 .fullContent .main_Image{
     background-color: rgb(189, 189, 189);
-    background: url(images/Main.jpeg) no-repeat fixed;
+    background: url(images/Me\ chillin.jpg) no-repeat fixed;
     background-size: cover;
     background-position: center ;
     width: 100%;
@@ -224,15 +224,20 @@ nav .navBar a h2:hover{
     text-decoration: underline;
 }
 
+
+.contact .freelance{
+    color: white;
+}
 .about_Me .image{
     width: 50vw ;
     height: 15em;
-    max-width: 50vw;
+    max-height: 50em;
+    min-height: 15em;
+    max-width: 45vw;
 
     background-color: rgb(0, 200, 0);
     align-self: center;
     
-
 
     margin: 2em 0;
 
@@ -701,7 +706,7 @@ footer hr{
    }
 
    .contact form{
-    width: 100%;
+    width: 70%;
    
 
    }
@@ -755,6 +760,12 @@ footer hr{
 
 @media  only screen and (max-width : 850px) {
 
+    .contact form{
+        width: 90%;
+       
+    
+       }
+
     
     .skill{
        
@@ -796,6 +807,13 @@ footer hr{
 
 
 
+        }
+
+
+        .fullContent .main_Image{
+        
+            background-position: right ;
+          
         }
 
       
@@ -874,6 +892,12 @@ footer hr{
     
     }
 
+    .fullContent .main_Image{
+        
+        background-position: 90% ;
+      
+    }
+
 
 }
 
@@ -891,4 +915,12 @@ footer hr{
         width: 100%;
     
     }
+
+
+    .fullContent .main_Image{
+        
+        background-position: 80% ;
+      
+    }
+
 }
