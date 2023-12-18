@@ -1,0 +1,617 @@
+{
+  "hero": {
+    "sectionTitle": "Home",
+    "title": "Get a beautiful website that captures attention",
+    "description": "Crafting websites that not only impress but drive success for your brand",
+    "buttonText": "Get Started"
+  },
+  "aboutMe": {
+    "sectionTitle": "About Me",
+    "title": "About Me",
+    "sequence1": "Hi, I'm Said Bara!",
+    "sequence2": "Hi, I'm a Web Developer",
+    "sequence3": "Building Awesome Websites",
+    "sequence4": "Turning Ideas Into Reality",
+    "description": "I'm Said Bara, a MERN stack developer with more than a year and half of experience under my belt. I have a solid foundation in MERN stack technologies and am always eager to learn and grow my skills. I'm a flexible and fast learner, always up for a challenge and eager to take on new projects."
+  },
+  "projects": {
+    "sectionTitle": "Projects",
+    "mainTitle": "Explore my Portfolio",
+    "subTitle": "From simple landing pages to complex social medias and online store creators",
+    "projectList": [
+      {
+        "name": "Axia - Store Creator",
+        "description": "Elevate your Online Sales with Axia, the E-commerce store creator",
+        "overview": "Axia is a versatile ecommerce store creator that empowers users to effortlessly establish and customize their online shops.\n\nIt includes essential features like adding and managing products, with the ability to upload product details, images, pricing, product variants, shopping cart functionality, secure payment processing, SEO optimization and more! \n\nLastly, Axia's user-friendly interface, robust features, and powerful technology stack, including React.js, Redux, Node.js, Express.js, MongoDB, and Firebase for user authentication, offer online entrepreneurs an all-in-one solution to effortlessly establish, manage, and scale their ecommerce ventures with confidence.",
+        "techs": [
+          "React",
+          "Material-tailwind",
+          "Tailwind CSS",
+          "Firebase",
+          "PayPal API",
+          "Redux Toolkit",
+          "Redux Persist",
+          "Formik",
+          "Yup",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Mongoose",
+          "Cloudinary"
+        ],
+
+        "features": [
+          "Easily add, edit, and delete products to maintain an up-to-date product catalog.",
+          "Organize products efficiently by creating, updating, and deleting categories.",
+          "User authentication and account management for secure shopping experiences.",
+          "Integration with popular payment gateways like PayPal and Cash on Delivery.",
+          "Efficiently manage orders, including processing, fulfillment, and customer communication.",
+          "Shopping cart functionality for convenient product selection and checkout.",
+          "Responsive design for optimal viewing and shopping experiences on all devices.",
+          "Scalable architecture to accommodate business growth and additional features."
+        ],
+        "images": [
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702811916/SaidBaraPortfolio/fullpage_axia_cpcgkw.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/Dash_mxfuh3.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/dash_dark_xdgh71.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888052/SaidBaraPortfolio/profile_d7tyev.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888052/SaidBaraPortfolio/product_hooh8x.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888051/SaidBaraPortfolio/payment_lu1jwj.webp"
+        ],
+
+        "liveDemoLink": "https://axia-editor.pages.dev/"
+      },
+      {
+        "name": "ConnectMe",
+        "description": "The social media for a peaceful online experience, built for ambitious entrepreneurs.",
+        "overview": "ConnectMe is a social media platform designed for entrepreneurs and hustlers to connect and network with each other. It provides a peaceful and serene online experience, free from the negativity and distractions often found on other social media platforms.\n\nUsers can post photos with captions, add and delete friends and like other's posts.\n\nConnectMe is continuously improving to better serve hustlers, with an upcoming real-time chat feature that will allow users to connect and communicate with each other in real-time. This addition to the platform will provide a space exclusively designed for hustlers to network and collaborate with each other.\n\nConnectMe aims to foster a supportive and collaborative community for its users to share their recent wins and receive feedback from their peers.",
+        "techs": [
+          "React",
+          "Material-UI",
+          "Redux Toolkit",
+          "Formik & Yup",
+          "React Router",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Mongoose",
+          "Passport",
+          "Cloudinary"
+        ],
+        "features": [
+          "Posting photos with captions after signing in",
+          "Adding and deleting friends",
+          "Viewing and interacting with friends' posts, including liking (and commenting soon)",
+          "Targeting entrepreneurs and hustlers as its main user base",
+          "Real-time chat feature for users to connect and communicate with each other (coming soon)",
+          "Ability to toggle between dark and white theme for user interface customization"
+        ],
+        "images": [
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888749/SaidBaraPortfolio/scrnli_18_12_2023_09-38-20_vzruwp.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-24-04_lpe3hh.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-24-27_wgpe4f.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-24-22_nqcjbp.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-24-31_ljvubv.webp"
+        ],
+
+        "liveDemoLink": "https://connectme.pages.dev/",
+        "githubLink": "https://github.com/Zyrox03/ConnectMe"
+      },
+      {
+        "name": "The Bullish Network",
+        "description": "Friendly Community that shares knowledge and advice on understanding crypto and the business world.",
+        "overview": "The Bullish Network is a landing page serving as the entry point to a crypto community. It provides easy access to information and discussions about cryptocurrency and the business world.\n\nThe website was created smoothly, leveraging the power of React for a dynamic and responsive user interface, including various libraries and tools, contributed to a seamless development process, allowing for efficient management of data, smooth navigation, and an engaging user experience.",
+        "techs": [
+          "React",
+          "Express",
+          "Swiper",
+          "React Scroll",
+          "Firebase",
+          "Firebase Admin",
+          "Email.js",
+          "Formik",
+          "React Helmet",
+          "React Router Dom",
+          "Helmet"
+        ],
+        "features": [
+          "Built with a responsive design, ensuring optimal viewing on various devices, including desktops, tablets, and mobile phones.",
+          "Leveraging the latest web standards, the page utilizes HTML5 for structuring content and CSS3 for styling, resulting in a modern and visually appealing user interface.",
+          "Includes Firebase authentication, enabling visitors to create accounts. Admins have access to logged-in users' metadata for enhanced user management.",
+          "The landing page is meticulously crafted for search engine optimization, incorporating well-structured meta tags, organized data, and clean URLs to enhance discoverability.",
+          "Image optimization techniques are employed to ensure fast loading times and an optimized user experience.",
+          "The website is designed with scalability in mind, allowing for easy expansion of features and accommodating a growing user base."
+        ],
+        "images": [
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888047/SaidBaraPortfolio/bullish_after_ghhlfz.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/1_xmcmc3.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/2_alaauc.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/3_kgp9uw.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/5_nx5tl2.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/4_d0lgrh.webp"
+        ],
+        "githubLink": "https://github.com/Zyrox03/TheBullish-Network",
+        "liveDemoLink": "https://bullishnetwork.xyz/"
+      },
+
+      {
+        "name": "FitClub",
+        "description": "In here we will help you shape and build your ideal body and live up your life to the fullest.",
+        "overview": "FitClub is a landing page web application designed for a gym or fitness center. \nIt features a modern and sleek design that showcases the gym's facilities, services, and training programs.\n\nThe website includes sections for classes, personal training, membership packages, testimonials, and contact information.\n\nIt is built using the React library and includes several packages for animations, scrolling effects, and email functionality.\n\nThe landing page is optimized for performance and accessibility, making it easy to use and navigate on any device.",
+        "techs": [
+          "React",
+          "Framer Motion",
+          "React-Scroll",
+          "EmailJS",
+          "CSS",
+          "Number Counter"
+        ],
+        "features": [
+          "Interactive and visually appealing design.",
+          "Animated number counters for dynamic content.",
+          "Testimonials and success stories for motivation.",
+          "Smooth scrolling with React-Scroll.",
+          "Email integration with EmailJS.",
+          "CSS styling for an attractive user interface."
+        ],
+        "images": [
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888047/SaidBaraPortfolio/fullpage_fit_mqowla.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-03-29_eluph1.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-03-25_ekevu2.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-03-21_cef9kg.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-03-14_og9ige.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888056/SaidBaraPortfolio/scrnli_17_12_2023_12-02-59_mbhbg6.webp"
+        ],
+
+        "githubLink": "https://github.com/Zyrox03/FitClub",
+        "liveDemoLink": "https://zyfitclub.pages.dev/"
+      }
+    ]
+  },
+  "services": {
+    "sectionTitle": "Services",
+    "mainTitle": "Our Web Developement Services",
+    "subTitle": "Streamlined web solutions for an enhanced online presence.",
+    "serviceCards": [
+      {
+        "cardNumber": 1,
+        "title": "Full-Stack Web Development",
+        "image": "card1",
+        "description": "Offering end-to-end development services using the MERN stack, encompassing both frontend (React.js) and backend (Node.js, Express.js) development."
+      },
+      {
+        "cardNumber": 2,
+        "title": "Responsive Web Design",
+        "image": "card2",
+        "description": "Creating websites that offer a seamless and optimal user experience across various devices, including desktops, tablets, and smartphones."
+      },
+      {
+        "cardNumber": 3,
+        "title": "Custom API Development",
+        "image": "card3",
+        "description": "Designing and implementing custom APIs to facilitate communication between the frontend and backend of your web applications."
+      },
+      {
+        "cardNumber": 4,
+        "title": "Website Optimisation",
+        "image": "card4",
+        "description": "Revitalize your online presence with our Website Optimization service, combining meticulous database management, fortified security measures, and SEO-focused strategies for unparalleled online visibility."
+      }
+    ]
+  },
+  "painPoints": {
+    "sectionTitle": "From Bad to Really Good",
+    "mainTitle": "Revitalizing the Digital Presence",
+    "subTitle": "No more awful websites. I either deliver a professional-looking website or nothing at all.",
+    "problemSolution": [
+      {
+        "painPoint": "Outdated website; needs modern, brand-aligned design.",
+        "desiredSolution": "Revamp design for a visually appealing, industry-standard look."
+      },
+      {
+        "painPoint": "High bounce rate due to complex navigation.",
+        "desiredSolution": "Create an intuitive, user-friendly interface for improved engagement."
+      },
+      {
+        "painPoint": "Unoptimized for mobile; losing potential traffic.",
+        "desiredSolution": "Implement a responsive design for optimal mobile viewing."
+      },
+      {
+        "painPoint": "Slow website causing user frustration and SEO impact.",
+        "desiredSolution": "Optimize for faster loading times to improve overall performance."
+      },
+      {
+        "painPoint": "Lack of essential features hindering user engagement.",
+        "desiredSolution": "Integrate specific functionalities tailored to business needs."
+      },
+      {
+        "painPoint": "Poor search engine visibility and ranking.",
+        "desiredSolution": "Implement SEO best practices for improved online visibility."
+      },
+      {
+        "painPoint": "Difficulty in content management for clients.",
+        "desiredSolution": "Integrate a user-friendly CMS for easy content updates."
+      },
+      {
+        "painPoint": "Website cannot accommodate business growth or changes.",
+        "desiredSolution": "Develop a scalable architecture for future adaptability."
+      },
+      {
+        "painPoint": "Security concerns after hacking or data breaches.",
+        "desiredSolution": "Implement robust security measures against potential threats."
+      }
+    ]
+  },
+  "featured": {
+    "sectionTitle": "Before & After",
+    "mainTitle": "Featured Web Redesign Project",
+    "subTitle": "See the difference as we bring a touch of professionalism to every transformation",
+    "hideBtn": "Hide",
+    "showBtn": "Click here to View More"
+  },
+  "skills": {
+    "sectionTitle": "Skill Set",
+    "mainTitle": "Exceptional Solutions, Refined Skills."
+  },
+  "testimonials": {
+    "sectionTitle": "Testimonials ",
+    "mainTitle": "Stories of Impact : A Shared Journey to Success",
+    "testimonialsList": [
+      {
+        "quote": "Working with Saïd has been a pleasure; his skills are ever-evolving, and he is an extremely talented dev, a keyboard legend who can create some of the best websites I've ever seen for a fraction of their value. I'm excited to see what's next for him.",
+        "author": "Blue Bull",
+        "position": "Bullish Network"
+      },
+      {
+        "quote": "I highly recommend Said for his outstanding web development expertise. His ability to solve complex problems and deliver high-quality results makes them a valuable asset to any project.",
+        "author": "Bob Anderson",
+        "position": "Lead Developer, ABC Company"
+      },
+      {
+        "quote": "It was a pleasure to work with Said. He demonstrated a deep understanding of web technologies and consistently delivered top-notch solutions. I'm looking forward to our next project together.",
+        "author": "Charlie Brown",
+        "position": "CEO, Tech Innovations Inc."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "mainTitle": "Reach Out to Me",
+    "subTitle": "Whether you have a project in mind, want to collaborate, or just say hello, I'd love to hear from you.",
+    "formInputs": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your Name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your Email"
+      },
+      "service": {
+        "label": "Select a Service"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Your Message"
+      }
+    }
+  },
+  "request-a-quote": {
+    "sectionTitle": "Request a Quote",
+    "mainTitle": "Get a Tailored Quote for Your Project",
+    "subTitle": "Tell us about your project, and we'll provide you with a customized quote to bring your vision to life.",
+    "timeline": [
+      {
+        "title": "Quote Request Received",
+        "icone": "fas fa-comments",
+        "description": "Your journey begins! We kick off discussions to understand your project needs."
+      },
+      {
+        "title": "Development Kickoff",
+        "icone": "fas fa-cogs",
+        "description": "We set milestones and start building your project."
+      },
+      {
+        "title": "Delivery & Fine-Tuning",
+        "icone": "fas fa-check-circle",
+        "description": "Your vision comes to life! We deliver and refine as needed."
+      }
+    ],
+    "quote-form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "Enter your phone number"
+      },
+      "projectType": {
+        "label": "Project type",
+        "placeholder": "Enter your project type",
+        "projectTypeOptions": [
+          {
+            "value": "personal-portfolio",
+            "label": "Personal Website or Portfolio"
+          },
+          { "value": "company-website", "label": "Company Website" },
+          { "value": "e-commerce", "label": "E-Commerce Website" },
+          {
+            "value": "blog-cms",
+            "label": "Blog or Content Management System (CMS)"
+          },
+          { "value": "web-application", "label": "Web Application" },
+          { "value": "client-portfolio", "label": "Portfolio for a Client" },
+          {
+            "value": "responsive-design",
+            "label": "Responsive Design Project"
+          },
+          {
+            "value": "social-media-integration",
+            "label": "Social Media Integration"
+          },
+          { "value": "landing-page", "label": "Interactive Landing Page" },
+          { "value": "event-website", "label": "Event Website" },
+          { "value": "community-forum", "label": "Community Forum" },
+          { "value": "educational-website", "label": "Educational Website" },
+          { "value": "dashboard", "label": "Dashboard Development" },
+          { "value": "api-integration", "label": "API Integration Project" },
+          { "value": "other", "label": "Other" }
+        ]
+      },
+      "projectGoals": {
+        "label": "Project goals",
+        "placeholder": "Enter your project goals"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Enter your company name"
+      },
+      "website": {
+        "label": "Website",
+        "placeholder": "Enter your website URL"
+      },
+      "budget": {
+        "label": "Budget",
+        "placeholder": "Enter your budget",
+        "budgetOptions": [
+          { "value": "-500", "label": "Up to 500$" },
+          { "value": "2000", "label": "500$ - 2000$" },
+          { "value": "2000+", "label": "2000$ and above" }
+        ]
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Enter your message"
+      }
+    }
+  },
+
+  "comment": {
+    "sectionTitle": "Comments",
+    "noCommentsYet": "Be the first one to comment here :)",
+    "commentPlaceholder": "Add a comment here...",
+    "submitComment": "Submit Comment",
+    "loadingComment": "Sending Comment...",
+    "labels": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name"
+      },
+      "dropzone": {
+        "label": "Drag and drop a file here, or click to select a file"
+      },
+      "comment": {
+        "label": "Comment",
+        "placeholder": "Enter your comment"
+      }
+    }
+  },
+
+  "quiz": {
+    "quiz-title": "Quiz Offer",
+    "quiz-completed": "Quiz Completed",
+    "incorrect-answers-title": "Incorrect Answers",
+    "email-placeholder": "Enter your Email",
+    "claim": "Claim Prize",
+    "loadingClaim": "Claiming...",
+    "restart": "Restart Quiz",
+
+    "questions": [
+      {
+        "text": "Why is having a website important for businesses?",
+        "options": [
+          {
+            "text": "To establish an online presence, reach a wider audience, and provide information 24/7.",
+            "isCorrect": true
+          },
+          { "text": "To increase the cost of operation.", "isCorrect": false },
+          { "text": "To limit the audience reach.", "isCorrect": false },
+          { "text": "To reduce brand visibility.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "What does 'MERN' stand for in web development?",
+        "options": [
+          { "text": "MongoDB, Express, React, Node.js", "isCorrect": true },
+          { "text": "MySQL, Express, React, Node.js", "isCorrect": false },
+          { "text": "Mongoose, Ember, React, Nest.js", "isCorrect": false },
+          { "text": "Materialize, Express, Redux, Node.js", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "What are the key benefits of having a responsive website?",
+        "options": [
+          {
+            "text": "Accessibility across devices, improved user experience, and better SEO.",
+            "isCorrect": true
+          },
+          {
+            "text": "Limited accessibility and slower performance.",
+            "isCorrect": false
+          },
+          { "text": "No impact on user experience.", "isCorrect": false },
+          {
+            "text": "Improved user experience but no impact on SEO.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Can you differentiate between user interface (UI) and user experience (UX) in web design?",
+        "options": [
+          {
+            "text": "Yes, UI refers to the visual elements, while UX focuses on the overall user experience.",
+            "isCorrect": true
+          },
+          { "text": "No, they are interchangeable terms.", "isCorrect": false },
+          { "text": "UI is irrelevant in web design.", "isCorrect": false },
+          { "text": "UX only involves graphic design.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Why is search engine optimization (SEO) important for a website?",
+        "options": [
+          {
+            "text": "Improving visibility on search engines, driving organic traffic, and reaching the target audience.",
+            "isCorrect": true
+          },
+          {
+            "text": "Reducing visibility on search engines.",
+            "isCorrect": false
+          },
+          {
+            "text": "Having no impact on organic traffic.",
+            "isCorrect": false
+          },
+          {
+            "text": "Exclusively relying on paid advertising for traffic.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "How can a website contribute to building trust with its visitors?",
+        "options": [
+          {
+            "text": "Secure connections (HTTPS), clear privacy policies, and professional design.",
+            "isCorrect": true
+          },
+          {
+            "text": "Having an unsecured connection (HTTP) and unclear privacy policies.",
+            "isCorrect": false
+          },
+          {
+            "text": "Ignoring the need for professional design.",
+            "isCorrect": false
+          },
+          { "text": "Having no impact on building trust.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "What role does content play in the success of a website?",
+        "options": [
+          {
+            "text": "Content is crucial for engaging visitors, conveying information, and improving SEO.",
+            "isCorrect": true
+          },
+          {
+            "text": "Content is irrelevant; design is the only important factor.",
+            "isCorrect": false
+          },
+          {
+            "text": "Content is secondary to visual elements.",
+            "isCorrect": false
+          },
+          {
+            "text": "Content is only necessary for e-commerce websites.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "What role does a domain name play in establishing an online presence, and how does it differ from web hosting?",
+        "options": [
+          {
+            "text": "A domain name serves as the unique address for your website, while web hosting is the service that stores and serves the actual website content.",
+            "isCorrect": true
+          },
+          {
+            "text": "A domain name determines the website's visual design, while web hosting focuses on security measures.",
+            "isCorrect": false
+          },
+          {
+            "text": "Web hosting and domain names are interchangeable terms.",
+            "isCorrect": false
+          },
+          {
+            "text": "Domain names only affect email communication, not the website itself.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Why is it important for a web developer to understand a client's business goals before starting a project?",
+        "options": [
+          {
+            "text": "To tailor the website to meet the specific needs and objectives of the client's business.",
+            "isCorrect": true
+          },
+          {
+            "text": "To use generic templates for faster development.",
+            "isCorrect": false
+          },
+          {
+            "text": "To avoid communication with the client.",
+            "isCorrect": false
+          },
+          {
+            "text": "To prioritize personal preferences over business goals.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "If you ever need a website, would you consider hiring me?",
+        "options": [
+          { "text": "Absolutely!", "isCorrect": true },
+          { "text": "Absolutely!", "isCorrect": true },
+          { "text": "I'll think about it.", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+
+  "contactSuccess": "Thank you! Your message has been successfully received. I will get back to you shortly",
+  "commentSuccess": "Your comment is in! We&apos;ll review and approve it shortly. Thanks for your feedback!",
+  "quizOffer": "🚀 Get 10% discount on my web development services by completing a simple quiz.",
+
+  "pageNotFound": {
+    "mainTitle": "Page Not Found",
+    "subTitle": "The page you are looking for might be under construction or does not exist."
+  },
+
+  "buttons": {
+    "request-a-quote": "Request a Quote",
+    "submit": "Submit",
+    "other": "Other",
+    "overview": "Overview",
+    "tech": "Tech",
+    "features": "Features",
+    "openQuiz": "Click Here !",
+    "viewMore": "View More",
+    "closeProject": "Close Project",
+    "loading": "Loading ...",
+    "sending": "Sending ...",
+    "next": "Next",
+    "previous": "Previous",
+    "watch-video": "Watch Video",
+    "before" : "Before",
+    "after" : "After"
+
+  }
+}

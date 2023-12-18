@@ -1,0 +1,539 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+/* CSS */
+
+.main_button {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  will-change: box-shadow, transform;
+  background: radial-gradient(100% 100% at 100% 0%, #89e5ff 0%, #5468ff 100%);
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%),
+    inset 0px -3px 0px rgb(58 65 111 / 50%);
+  padding: 0 32px;
+  border-radius: 6px;
+  color: #fff;
+  height: 48px;
+  font-size: 18px;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.main_button:hover {
+  box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+  transform: translateY(-2px);
+}
+
+.main_button:active {
+  box-shadow: inset 0px 3px 7px #3c4fe0;
+  transform: translateY(2px);
+}
+
+
+/*  secondary_button */
+
+.secondary_button {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  will-change: box-shadow, transform;
+  background: #fcfcfd;
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  height: 48px;
+  padding: 0 32px;
+  font-size: 18px;
+  border-radius: 6px;
+  color: #36395a;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.secondary_button:hover {
+  box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  transform: translateY(-2px);
+}
+
+.secondary_button:active {
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
+}
+
+@media screen and (max-width: 640px) {
+  nav .main_button,
+  nav .secondary_button {
+    padding: 0 16px; /* Adjust padding for smaller screens */
+    height: 40px; /* Adjust height for smaller screens */
+    font-size: 13px; /* Adjust font size for smaller screens */
+  }
+}
+
+.services_container {
+  max-height: 559px;
+  max-width: 1820px;
+  height: 65vh;
+  width: 100%;
+}
+.service_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.gradient {
+  background: #000046; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(100deg, #1cb5e0, #000046); */
+  /* background: linear-gradient(100deg, #1cb5e0, #000046); */
+}
+
+.silver {
+  background: #e4e9ed;
+  background: -webkit-linear-gradient(-45deg,  #fff, #E4E9ED 60% );
+  background: linear-gradient(-45deg,  #fff, #E4E9ED 60% );
+  color: black;
+}
+
+.bright-heading {
+  font-weight: 500;
+  text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.5);
+}
+
+.sub-heading {
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-size: 100% 100%;
+  }
+
+  20% {
+    background-size: 110% 110%;
+  }
+
+  40% {
+    background-size: 120% 120%;
+  }
+
+  60% {
+    background-size: 130% 130%;
+  }
+
+  80% {
+    background-size: 140% 140%;
+  }
+
+  100% {
+    background-size: 150% 150%;
+  }
+}
+
+.arrow-indicator {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent; /* adjust size as needed */
+  border-right: 5px solid transparent; /* adjust size as needed */
+  border-bottom: 4px solid white; /* adjust size and color as needed */
+}
+
+/* SWIPER */
+
+.prev-arrow {
+  position: absolute;
+  left: -5%;
+  top: 50%;
+  color: white;
+  rotate: 180deg;
+  transform: translateX(0);
+}
+.next-arrow {
+  position: absolute;
+  right: -5%;
+  top: 50%;
+  color: white;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(right, #0000ae, #000046);
+
+  border-radius: 2px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* hide scroll bar */
+
+/* WebKit-specific styles to hide the scrollbar */
+.no_scrollBar::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.no_scrollBar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* clickable_card */
+
+.clickable_card {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  will-change: box-shadow, transform;
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  
+  font-size: 18px;
+  border-radius: 6px;
+  color: black;
+  transition: box-shadow 0.15s ease, transform 0.15s ease, background 0.5;
+}
+
+.navPage .clickable_card{
+  padding: 5px;
+}
+
+.clickable_card:hover {
+  box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  transform: translateY(-2px);
+}
+
+.clickable_card:active {
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
+}
+
+/* Custom pagination styles */
+.custom-pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-pagination-button {
+  margin: 0 5px;
+  cursor: pointer;
+  padding: 8px;
+  background-color: #1cb5e0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-pagination-button.active {
+  background-color: #1cb5e0;
+  color: #fff;
+}
+
+.custom-pagination-button:hover {
+  background-color: #1cb5e0;
+  color: #fff;
+}
+
+/* Dropzone container */
+.dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Active state when dragging a file over the dropzone */
+.dropzone.active {
+  border-color: #2196f3;
+}
+
+/* Styling for the text inside the dropzone */
+.dropzone p {
+  margin: 0;
+  font-size: 16px;
+  color: #555555;
+}
+
+/* Optional: Add some styles for a preview of the dragged file */
+.dropzone-preview {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dropzone-preview img {
+  max-width: 100%;
+  max-height: 150px;
+  margin-bottom: 10px;
+}
+
+/* Blur Effect */
+
+.blur {
+  background-color: #642ca9;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
+}
+
+.blur-animate {
+  animation: translateAnimation 10s infinite linear;
+}
+/* Define the keyframes for the translation animation */
+@keyframes translateAnimation {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(100px, 0) rotate(90deg);
+  }
+  50% {
+    transform: translate(100px, 100px) rotate(180deg);
+  }
+  75% {
+    transform: translate(0, 100px) rotate(270deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+.bg-blur {
+  width: 40vw;
+  height: 30rem;
+  left: 15%;
+  top: 25%;
+}
+
+.bg-blur-2 {
+  background-color: #ec4899;
+
+  width: 25rem;
+  height: 25rem;
+  right: 20%;
+  top: 10%;
+}
+.bg-blur-3 {
+  background-color: #ec4899;
+
+  width: 20rem;
+  height: 25rem;
+  right: 20%;
+  top: 50%;
+}
+.bg-blur-4 {
+  background-color: #7605ff;
+
+  width: 25rem;
+  height: 25rem;
+  right: 70%;
+  top: 70%;
+}
+
+@media screen and (max-width: 500px) {
+  .bg-blur-2 {
+    background-color: #ec4899;
+
+    width: 25rem;
+    height: 25rem;
+    right: 20%;
+    top: 10%;
+  }
+  .bg-blur-3 {
+    background-color: #ec4899;
+
+    width: 20rem;
+    height: 25rem;
+    right: 20%;
+    top: 50%;
+  }
+  .bg-blur-4 {
+    background-color: #7605ff;
+
+    width: 25rem;
+    height: 25rem;
+    right: 70%;
+    top: 70%;
+  }
+}
+
+/* ROADMAP  */
+oadmap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.roadmap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.step {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.step::before {
+  content: attr(data-step);
+  display: block;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+/* FLIPPING CARD */
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 250px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* FadeInTextAnimation */
+
+.FadeInTextAnimation {
+  max-width: 40ch;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.FadeInTextAnimation span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+  color: white;
+}
+
+.FadeInTextAnimation span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.FadeInTextAnimation span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.FadeInTextAnimation span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.FadeInTextAnimation span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.FadeInTextAnimation span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.FadeInTextAnimation span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.FadeInTextAnimation span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.FadeInTextAnimation span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.FadeInTextAnimation span:nth-child(9) {
+  animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.FadeInTextAnimation span:nth-child(10) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.FadeInTextAnimation span:nth-child(11) {
+  animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.FadeInTextAnimation span:nth-child(12) {
+  animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.FadeInTextAnimation span:nth-child(13) {
+  animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.FadeInTextAnimation span:nth-child(14) {
+  animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.FadeInTextAnimation span:nth-child(15) {
+  animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.FadeInTextAnimation span:nth-child(16) {
+  animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}

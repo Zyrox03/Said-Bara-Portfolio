@@ -1,0 +1,626 @@
+{
+  "hero": {
+    "sectionTitle": "Accueil",
+    "title": "Obtenez un site web magnifique qui attire l'attention",
+    "description": "Conception de sites web qui n'impressionnent pas seulement, mais qui propulsent le succès de votre marque",
+    "buttonText": "Commencer"
+  },
+  "aboutMe": {
+    "sectionTitle": "À Propos de Moi",
+    "title": "À propos de moi",
+    "sequence1": "Salut, je suis Said Bara !",
+    "sequence2": "Salut, je suis un développeur web",
+    "sequence3": "Création de sites web extraordinaires",
+    "sequence4": "Transformer des idées en réalité",
+    "description": "Je suis Said Bara, un développeur MERN avec plus d'un an et demi d'expérience. J'ai une base solide dans les technologies du stack MERN et suis toujours désireux d'apprendre et de développer mes compétences. Je suis flexible et un apprenant rapide, toujours prêt à relever un défi et enthousiaste à l'idée de prendre de nouveaux projets."
+  },
+  "projects": {
+    "sectionTitle": "Projets",
+    "mainTitle": "Explorez mon portfolio",
+    "subTitle": "De simples pages d'atterrissage à des réseaux sociaux complexes et des créateurs de boutiques en ligne,",
+    "buttonText": "Demander un devis",
+    "projectList": [
+      {
+        "name": "Axia - Créateur de boutique",
+        "description": "Élevez vos ventes en ligne avec Axia, le créateur de boutiques e-commerce",
+        "overview": "Axia est un créateur polyvalent de boutiques e-commerce qui permet aux utilisateurs d'établir et de personnaliser facilement leurs boutiques en ligne. Il comprend des fonctionnalités essentielles telles que l'ajout et la gestion de produits, avec la possibilité de télécharger des détails de produits, des images, des prix, des variantes de produits, une fonctionnalité de panier d'achat, un traitement sécurisé des paiements, une optimisation SEO et bien plus encore ! Enfin, l'interface conviviale d'Axia, ses fonctionnalités robustes et sa pile technologique puissante, comprenant React.js, Redux, Node.js, Express.js, MongoDB et Firebase pour l'authentification des utilisateurs, offrent aux entrepreneurs en ligne une solution tout-en-un pour établir, gérer et faire évoluer facilement leurs ventures e-commerce en toute confiance.",
+        "techs": [
+          "React",
+          "Material-tailwind",
+          "Tailwind CSS",
+          "Firebase",
+          "PayPal API",
+          "Redux Toolkit",
+          "Redux Persist",
+          "Formik",
+          "Yup",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Mongoose",
+          "Cloudinary"
+        ],
+        
+        "features": [
+          "Ajoutez, modifiez et supprimez facilement des produits pour maintenir un catalogue de produits à jour.",
+          "Organisez efficacement les produits en créant, mettant à jour et supprimant des catégories.",
+          "Authentification utilisateur et gestion de compte pour des expériences d'achat sécurisées.",
+          "Intégration avec des passerelles de paiement populaires comme PayPal et Cash on Delivery.",
+          "Gérez efficacement les commandes, y compris le traitement, l'exécution et la communication avec les clients.",
+          "Fonctionnalité de panier d'achat pour une sélection pratique des produits et une caisse facile.",
+          "Design réactif pour des expériences de visionnage et d'achat optimales sur tous les appareils.",
+          "Architecture évolutive pour accommoder la croissance de l'entreprise et des fonctionnalités supplémentaires."
+        ],
+        "images": [
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702811916/SaidBaraPortfolio/fullpage_axia_cpcgkw.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/Dash_mxfuh3.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/dash_dark_xdgh71.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888052/SaidBaraPortfolio/profile_d7tyev.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888052/SaidBaraPortfolio/product_hooh8x.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888051/SaidBaraPortfolio/payment_lu1jwj.webp"
+        ],
+        "githubLink": "https://github.com/your-username/axia-store-creator",
+        "liveDemoLink": "https://axia-editor.pages.dev/"
+      },
+      {
+        "name": "ConnectMe",
+        "description": "Le réseau social pour une expérience en ligne paisible, conçu pour les entrepreneurs ambitieux.",
+        "overview": "ConnectMe est une plateforme de médias sociaux conçue pour les entrepreneurs et les travailleurs acharnés afin de se connecter et de réseauter les uns avec les autres. Elle offre une expérience en ligne paisible et sereine, exempte de la négativité et des distractions souvent rencontrées sur d'autres plateformes de médias sociaux. Les utilisateurs peuvent publier des photos avec des légendes, ajouter et supprimer des amis, aimer et commenter les publications des autres. ConnectMe s'améliore constamment pour mieux servir les travailleurs acharnés, avec une fonctionnalité de chat en temps réel à venir qui permettra aux utilisateurs de se connecter et de communiquer les uns avec les autres en temps réel. Cette addition à la plateforme fournira un espace exclusivement conçu pour que les travailleurs acharnés réseautent et collaborent les uns avec les autres. ConnectMe vise à favoriser une communauté de soutien et de collaboration pour que les utilisateurs partagent leurs succès récents et reçoivent des commentaires de leurs pairs.",
+        "techs": [
+          "React",
+          "Material-UI",
+          "Redux Toolkit",
+          "Formik & Yup",
+          "React Router",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Mongoose",
+          "Passport",
+          "Cloudinary"
+        ],
+        "features": [
+          "Ajoutez, modifiez et supprimez facilement des produits pour maintenir un catalogue de produits à jour.",
+          "Organisez efficacement les produits en créant, mettant à jour et supprimant des catégories.",
+          "Authentification utilisateur et gestion de compte pour des expériences d'achat sécurisées.",
+          "Intégration avec des passerelles de paiement populaires comme PayPal et Cash on Delivery.",
+          "Gérez efficacement les commandes, y compris le traitement, l'exécution et la communication avec les clients.",
+          "Fonctionnalité de panier d'achat pour une sélection pratique des produits et une caisse facile.",
+          "Design réactif pour des expériences de visionnage et d'achat optimales sur tous les appareils.",
+          "Architecture évolutive pour accommoder la croissance de l'entreprise et des fonctionnalités supplémentaires."
+        ],
+        "images": [
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888749/SaidBaraPortfolio/scrnli_18_12_2023_09-38-20_vzruwp.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-24-04_lpe3hh.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-24-27_wgpe4f.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-24-22_nqcjbp.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-24-31_ljvubv.webp"
+        ],
+        "liveDemoLink": "https://connectme.pages.dev/",
+        "githubLink": "https://github.com/Zyrox03/ConnectMe"
+      },
+      {
+        "name": "The Bullish Network",
+        "description": "Communauté conviviale partageant des connaissances et des conseils sur la compréhension de la cryptographie et du monde des affaires.",
+        "overview": "The Bullish Network est une page d'atterrissage simple et réactive servant de point d'entrée à une communauté de cryptographie. Elle offre un accès facile aux informations et aux discussions sur la cryptographie et le monde des affaires.",
+        "techs": ["React", "CSS"],
+        "features": [
+          "Conçu avec un design réactif, assurant une visualisation optimale sur divers appareils, y compris les ordinateurs de bureau, les tablettes et les téléphones mobiles.",
+          "Exploitant les dernières normes Web, la page utilise HTML5 pour structurer le contenu et CSS3 pour le style, donnant une interface utilisateur moderne et visuellement attrayante.",
+          "La page d'atterrissage est optimisée pour les moteurs de recherche, avec des balises méta appropriées, des données structurées et des URL propres pour améliorer la découvrabilité.",
+          "Le site Web est conçu avec la scalabilité à l'esprit, permettant une expansion facile des fonctionnalités et accommodant une base d'utilisateurs croissante."
+        ],
+        "images": [
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888047/SaidBaraPortfolio/bullish_after_ghhlfz.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/1_xmcmc3.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/2_alaauc.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/3_kgp9uw.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/5_nx5tl2.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888046/SaidBaraPortfolio/4_d0lgrh.webp"
+        ],
+        "githubLink": "https://github.com/your-username/bullish-network",
+        "liveDemoLink": "https://bullishnetwork.xyz/"
+      },
+      {
+        "name": "FitClub",
+        "description": "Ici, nous vous aiderons à façonner et à construire votre corps idéal et à vivre pleinement votre vie.",
+        "overview": "FitClub est une page d'atterrissage conçue pour une salle de sport ou un centre de fitness. Le site Web présente un design moderne et élégant mettant en valeur les installations, les services et les programmes d'entraînement de la salle de sport. Il comprend des sections pour les cours, l'entraînement personnel, les forfaits d'adhésion, les témoignages et les coordonnées. Il est construit à l'aide de la bibliothèque React et inclut plusieurs packages pour les animations, les effets de défilement et la fonctionnalité d'e-mail. La page d'atterrissage est optimisée pour la performance et l'accessibilité, facilitant son utilisation et sa navigation sur n'importe quel appareil.",
+        "techs": [
+          "React",
+          "Framer Motion",
+          "React-Scroll",
+          "EmailJS",
+          "CSS",
+          "Number Counter"
+        ],
+        "features": [
+          "Obtenez de l'aide pour façonner et construire votre corps idéal.",
+          "Vivez pleinement votre vie avec FitClub.",
+          "Design interactif et visuellement attrayant.",
+          "Témoignages et histoires de réussite pour la motivation.",
+          "Planifiez et suivez votre parcours de remise en forme.",
+          "Défilement fluide avec React-Scroll.",
+          "Intégration d'e-mails avec EmailJS.",
+          "Stylisme CSS pour une interface utilisateur attrayante.",
+          "Compteurs de chiffres animés pour un contenu dynamique."
+        ],
+        "images": [
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888047/SaidBaraPortfolio/fullpage_fit_mqowla.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-03-29_eluph1.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-03-25_ekevu2.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-03-21_cef9kg.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888057/SaidBaraPortfolio/scrnli_17_12_2023_12-03-14_og9ige.webp",
+          "https://res.cloudinary.com/duh30yscb/image/upload/v1702888056/SaidBaraPortfolio/scrnli_17_12_2023_12-02-59_mbhbg6.webp"
+        ],
+        "githubLink": "https://github.com/Zyrox03/FitClub",
+        "liveDemoLink": "https://zyfitclub.pages.dev/"
+      }
+    ]
+  },
+  "services": {
+    "sectionTitle": "Services",
+    "mainTitle": "Nos services de conception web",
+    "subTitle": "Solutions web optimisées pour une présence en ligne renforcée.",
+    "serviceCards": [
+      {
+        "cardNumber": 1,
+        "title": "Développement Web Full-Stack",
+        "image": "card1",
+        "description": "Proposant des services de développement de bout en bout en utilisant la pile MERN, englobant à la fois le frontend (React.js) et le backend (Node.js, Express.js)."
+      },
+      {
+        "cardNumber": 2,
+        "title": "Conception Web Réactive",
+        "image": "card2",
+        "description": "Création de sites web offrant une expérience utilisateur fluide et optimale sur divers appareils, y compris les ordinateurs de bureau, les tablettes et les smartphones."
+      },
+      {
+        "cardNumber": 3,
+        "title": "Développement d'API Personnalisées",
+        "image": "card3",
+        "description": "Conception et mise en œuvre d'API personnalisées pour faciliter la communication entre le frontend et le backend de vos applications web."
+      },
+      {
+        "cardNumber": 4,
+        "title": "Optimisation de Site Web",
+        "image": "card4",
+        "description": "Revitalisez votre présence en ligne avec notre service d'Optimisation de Site Web, combinant une gestion méticuleuse de la base de données, des mesures de sécurité renforcées et des stratégies axées sur le SEO pour une visibilité en ligne inégalée."
+      }
+    ]
+  },
+
+  "painPoints": {
+    "sectionTitle": "Du Mauvais au Vraiment Bien",
+    "mainTitle": "Revitaliser la Présence Numérique",
+    "subTitle": "Élever les expériences numériques en améliorant les sites web pour des interactions utilisateur fluides grâce à un design moderne, une navigation intuitive, une optimisation et des mesures de sécurité robustes",
+    "problemSolution": [
+      {
+        "painPoint": "Site web obsolète ; besoin d'un design moderne et aligné à la marque.",
+        "desiredSolution": "Revoir le design pour un aspect visuellement attrayant, conforme aux normes de l'industrie."
+      },
+      {
+        "painPoint": "Taux de rebond élevé en raison d'une navigation complexe.",
+        "desiredSolution": "Créer une interface intuitive et conviviale pour améliorer l'engagement."
+      },
+      {
+        "painPoint": "Non optimisé pour le mobile ; perte de trafic potentiel.",
+        "desiredSolution": "Mettre en place un design adaptatif pour une visualisation optimale sur mobile."
+      },
+      {
+        "painPoint": "Site lent entraînant la frustration des utilisateurs et impactant le référencement.",
+        "desiredSolution": "Optimiser pour des temps de chargement plus rapides afin d'améliorer les performances globales."
+      },
+      {
+        "painPoint": "Manque de fonctionnalités essentielles entravant l'engagement des utilisateurs.",
+        "desiredSolution": "Intégrer des fonctionnalités spécifiques adaptées aux besoins de l'entreprise."
+      },
+      {
+        "painPoint": "Visibilité et classement médiocres sur les moteurs de recherche.",
+        "desiredSolution": "Mettre en place les meilleures pratiques SEO pour améliorer la visibilité en ligne."
+      },
+      {
+        "painPoint": "Difficulté dans la gestion du contenu pour les clients.",
+        "desiredSolution": "Intégrer un système de gestion de contenu convivial pour des mises à jour de contenu faciles."
+      },
+      {
+        "painPoint": "Le site ne peut pas accompagner la croissance ou les changements de l'entreprise.",
+        "desiredSolution": "Développer une architecture évolutive pour une adaptabilité future."
+      },
+      {
+        "painPoint": "Inquiétudes en matière de sécurité après des piratages ou des violations de données.",
+        "desiredSolution": "Mettre en place des mesures de sécurité robustes contre les menaces potentielles."
+      }
+    ]
+  },
+  "featured": {
+    "sectionTitle": "Avant et Après",
+    "mainTitle": "Projet de Refonte Web en Vedette",
+    "subTitle": "Découvrez la différence alors que nous apportons une touche de professionnalisme à chaque transformation.",
+    "hideBtn": "Cacher",
+    "showBtn": "Cliquez ici pour Montrer plus"
+  },
+  "skills": {
+    "sectionTitle": "Compétences",
+    "mainTitle": "Solutions exceptionnelles, compétences affinées."
+  },
+  "testimonials": {
+    "sectionTitle": "Témoignages",
+    "mainTitle": "Histoires d'Impact : Un Parcours Partagé vers le Succès",
+    "testimonialsList": [
+      {
+        "quote": "Travailler avec Saïd a été un plaisir ; ses compétences évoluent constamment, et il est un développeur extrêmement talentueux, une légende du clavier capable de créer certains des meilleurs sites web que j'ai jamais vus pour une fraction de leur valeur. Je suis impatient de voir ce qui l'attend.",
+        "author": "Blue Bull",
+        "position": "Bullish Network"
+      },
+      {
+        "quote": "Je recommande vivement Said pour son expertise exceptionnelle en développement web. Sa capacité à résoudre des problèmes complexes et à fournir des résultats de haute qualité en fait un atout précieux pour tout projet.",
+        "author": "Bob Anderson",
+        "position": "Lead Developer, ABC Company"
+      },
+      {
+        "quote": "C'était un plaisir de travailler avec Said. Il a démontré une compréhension approfondie des technologies web et a constamment livré des solutions de haute qualité. J'attends avec impatience notre prochain projet ensemble.",
+        "author": "Charlie Brown",
+        "position": "CEO, Tech Innovations Inc."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "mainTitle": "Prenez contact avec nous",
+    "subTitle": "Que vous ayez un projet en tête, que vous souhaitiez collaborer, ou simplement dire bonjour, nous serions ravis d'avoir de vos nouvelles.",
+    "formInputs": {
+      "name": {
+        "label": "Nom",
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Votre adresse e-mail"
+      },
+      "service": {
+        "label": "Sélectionner un service"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Votre message"
+      }
+    }
+  },
+
+  "request-a-quote": {
+    "sectionTitle": "Demander un devis",
+    "mainTitle": "Obtenez un devis personnalisé pour votre projet",
+    "subTitle": "Parlez-nous de votre projet, et nous vous fournirons un devis personnalisé pour donner vie à votre vision.",
+    "timeline": [
+      {
+        "title": "Demande de devis reçue",
+        "icone": "fas fa-comments",
+        "description": "Votre parcours commence ! Nous lançons des discussions pour comprendre les besoins de votre projet."
+      },
+      {
+        "title": "Début du développement",
+        "icone": "fas fa-cogs",
+        "description": "Nous définissons des jalons et commençons à construire votre projet."
+      },
+      {
+        "title": "Livraison et ajustements",
+        "icone": "fas fa-check-circle",
+        "description": "Votre vision prend vie ! Nous livrons et affinons au besoin."
+      }
+    ],
+    "quote-form": {
+      "name": {
+        "label": "Nom",
+        "placeholder": "Entrez votre nom"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Entrez votre adresse e-mail"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "placeholder": "Entrez votre numéro de téléphone"
+      },
+      "projectType": {
+        "label": "Type de projet",
+        "placeholder": "Entrez le type de votre projet",
+        "projectTypeOptions": [
+          {
+            "value": "personal-portfolio",
+            "label": "Site Web personnel ou portfolio"
+          },
+          { "value": "company-website", "label": "Site Web d'entreprise" },
+          {
+            "value": "e-commerce",
+            "label": "Site Web de commerce électronique"
+          },
+          {
+            "value": "blog-cms",
+            "label": "Blog ou système de gestion de contenu (CMS)"
+          },
+          { "value": "web-application", "label": "Application Web" },
+          { "value": "client-portfolio", "label": "Portfolio pour un client" },
+          {
+            "value": "responsive-design",
+            "label": "Projet de conception responsive"
+          },
+          {
+            "value": "social-media-integration",
+            "label": "Intégration des médias sociaux"
+          },
+          {
+            "value": "landing-page",
+            "label": "Page de destination interactive"
+          },
+          { "value": "event-website", "label": "Site Web d'événement" },
+          { "value": "community-forum", "label": "Forum communautaire" },
+          { "value": "educational-website", "label": "Site Web éducatif" },
+          { "value": "dashboard", "label": "Développement de tableau de bord" },
+          { "value": "api-integration", "label": "Projet d'intégration d'API" },
+          { "value": "other", "label": "Autre" }
+        ]
+      },
+      "projectGoals": {
+        "label": "Objectifs du projet",
+        "placeholder": "Entrez les objectifs de votre projet"
+      },
+      "company": {
+        "label": "Entreprise",
+        "placeholder": "Entrez le nom de votre entreprise"
+      },
+      "website": {
+        "label": "Site Web",
+        "placeholder": "Entrez l'URL de votre site Web"
+      },
+      "budget": {
+        "label": "Budget",
+        "placeholder": "Entrez votre budget",
+        "budgetOptions": [
+          { "value": "-500", "label": "Jusqu'à 500 $" },
+          { "value": "2000", "label": "500 $ - 2000 $" },
+          { "value": "2000+", "label": "2000 $ et plus" }
+        ]
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Entrez votre message"
+      }
+    }
+  },
+
+  "comment": {
+    "sectionTitle": "Commentaires",
+    "noCommentsYet": "Soyez le premier à commenter ici :)",
+    "commentPlaceholder": "Ajouter un commentaire ici...",
+    "submitComment": "Soumettre ",
+    "loadingComment": "Envoi du commentaire...",
+    "labels": {
+      "name": {
+        "label": "Nom",
+        "placeholder": "Entrez votre nom"
+      },
+      "dropzone": {
+        "label": "Faites glisser et déposez un fichier ici, ou cliquez pour sélectionner un fichier"
+      },
+      "comment": {
+        "label": "Commentaire",
+        "placeholder": "Entrez votre commentaire"
+      }
+    }
+  },
+
+  "quiz": {
+    "quiz-title": "Offre de Quiz",
+    "quiz-completed": "Quiz Terminé",
+    "incorrect-answers-title": "Réponses Incorrectes",
+    "email-placeholder": "Entrez votre adresse e-mail",
+    "claim": "Réclamer le Prix",
+    "loadingClaim": "Réclamation en cours...",
+    "restart": "Recommencer le Quiz",
+
+    "questions": [
+      {
+        "text": "Pourquoi est-il important pour les entreprises d'avoir un site web?",
+        "options": [
+          {
+            "text": "Établir une présence en ligne, toucher un public plus large et fournir des informations 24h/24, 7j/7.",
+            "isCorrect": true
+          },
+          { "text": "Augmenter le coût des opérations.", "isCorrect": false },
+          { "text": "Limiter la portée du public.", "isCorrect": false },
+          { "text": "Réduire la visibilité de la marque.", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Que signifie 'MERN' en développement web?",
+        "options": [
+          { "text": "MongoDB, Express, React, Node.js", "isCorrect": true },
+          { "text": "MySQL, Express, React, Node.js", "isCorrect": false },
+          { "text": "Mongoose, Ember, React, Nest.js", "isCorrect": false },
+          { "text": "Materialize, Express, Redux, Node.js", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Quels sont les principaux avantages d'avoir un site web responsive?",
+        "options": [
+          {
+            "text": "Accessibilité sur tous les appareils, amélioration de l'expérience utilisateur et meilleur référencement.",
+            "isCorrect": true
+          },
+          {
+            "text": "Accessibilité limitée et performances plus lentes.",
+            "isCorrect": false
+          },
+          {
+            "text": "Aucun impact sur l'expérience utilisateur.",
+            "isCorrect": false
+          },
+          {
+            "text": "Expérience utilisateur améliorée mais sans impact sur le référencement.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Pouvez-vous faire la différence entre l'interface utilisateur (UI) et l'expérience utilisateur (UX) en conception web?",
+        "options": [
+          {
+            "text": "Oui, UI se réfère aux éléments visuels, tandis que UX se concentre sur l'expérience utilisateur globale.",
+            "isCorrect": true
+          },
+          {
+            "text": "Non, ce sont des termes interchangeables.",
+            "isCorrect": false
+          },
+          {
+            "text": "UI est sans importance en conception web.",
+            "isCorrect": false
+          },
+          {
+            "text": "UX ne concerne que la conception graphique.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Pourquoi le référencement (SEO) est-il important pour un site web?",
+        "options": [
+          {
+            "text": "Améliorer la visibilité sur les moteurs de recherche, générer du trafic organique et atteindre le public cible.",
+            "isCorrect": true
+          },
+          {
+            "text": "Réduire la visibilité sur les moteurs de recherche.",
+            "isCorrect": false
+          },
+          {
+            "text": "Aucun impact sur le trafic organique.",
+            "isCorrect": false
+          },
+          {
+            "text": "Reposer exclusivement sur la publicité payante pour le trafic.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Comment un site web peut-il contribuer à instaurer la confiance avec ses visiteurs?",
+        "options": [
+          {
+            "text": "Connexions sécurisées (HTTPS), politiques de confidentialité claires et design professionnel.",
+            "isCorrect": true
+          },
+          {
+            "text": "Avoir une connexion non sécurisée (HTTP) et des politiques de confidentialité peu claires.",
+            "isCorrect": false
+          },
+          {
+            "text": "Ignorer la nécessité d'un design professionnel.",
+            "isCorrect": false
+          },
+          {
+            "text": "Aucun impact sur la construction de la confiance.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Quel rôle joue le contenu dans le succès d'un site web?",
+        "options": [
+          {
+            "text": "Le contenu est crucial pour engager les visiteurs, transmettre des informations et améliorer le référencement.",
+            "isCorrect": true
+          },
+          {
+            "text": "Le contenu est sans importance; le design est le seul facteur important.",
+            "isCorrect": false
+          },
+          {
+            "text": "Le contenu est secondaire par rapport aux éléments visuels.",
+            "isCorrect": false
+          },
+          {
+            "text": "Le contenu est uniquement nécessaire pour les sites web de commerce électronique.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Quel rôle joue un nom de domaine dans l'établissement d'une présence en ligne, et en quoi diffère-t-il de l'hébergement web?",
+        "options": [
+          {
+            "text": "Un nom de domaine sert d'adresse unique pour votre site web, tandis que l'hébergement web est le service qui stocke et diffuse le contenu réel du site web.",
+            "isCorrect": true
+          },
+          {
+            "text": "Un nom de domaine détermine le design visuel du site web, tandis que l'hébergement web se concentre sur les mesures de sécurité.",
+            "isCorrect": false
+          },
+          {
+            "text": "L'hébergement web et les noms de domaine sont des termes interchangeables.",
+            "isCorrect": false
+          },
+          {
+            "text": "Les noms de domaine n'affectent que la communication par e-mail, pas le site web lui-même.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Pourquoi est-il important pour un développeur web de comprendre les objectifs commerciaux d'un client avant de commencer un projet?",
+        "options": [
+          {
+            "text": "Adapter le site web pour répondre aux besoins et objectifs spécifiques de l'entreprise du client.",
+            "isCorrect": true
+          },
+          {
+            "text": "Utiliser des modèles génériques pour un développement plus rapide.",
+            "isCorrect": false
+          },
+          {
+            "text": "Éviter la communication avec le client.",
+            "isCorrect": false
+          },
+          {
+            "text": "Donner la priorité aux préférences personnelles plutôt qu'aux objectifs commerciaux.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Si vous avez besoin d'un site web, envisageriez-vous de me recruter?",
+        "options": [
+          { "text": "Absolument!", "isCorrect": true },
+          { "text": "Absolument!", "isCorrect": true },
+          { "text": "J'y réfléchirai.", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+
+  "pageNotFound": {
+    "mainTitle": "Page Non Trouvée",
+    "subTitle": "La page que vous cherchez pourrait être en construction ou n'existe pas."
+  },
+  "contactSuccess": "Merci de m'avoir contacté, je reviendrai vers vous dès que possible.",
+  "commentSuccess": "Votre commentaire a bien été reçu ! Nous le passerons en revue et l'approuverons sous peu. Merci pour vos retours !",
+  "quizOffer": "🚀 Obtenez une remise de 10 % sur mes services de développement web en complétant un simple quiz.",
+  "buttons": {
+    "request-a-quote": "Demander un Devis",
+    "submit": "Envoyer",
+    "other": "Autre",
+    "overview": "Aperçu",
+    "tech": "Tech",
+    "features": "Fonctionnalités",
+    "openQuiz": "Cliquez Ici !",
+    "viewMore": "Voir Plus",
+    "closeProject": "Fermer le Project",
+    "loading": "Chargement ...",
+    "sending": "Envoi en cours ...",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "watch-video": "Regarder la vidéo",
+    "before" : "Avant",
+    "after" : "Après"
+  }
+}
