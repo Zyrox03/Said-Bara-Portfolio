@@ -1,6 +1,6 @@
 ## Hello World !
 
-# I am Sad Bara, MERN Stack developer
+# I am Said Bara, MERN Stack developer
 
 
 I'm Said Bara, a MERN stack developer with more than a year and half of experience under my belt. 
